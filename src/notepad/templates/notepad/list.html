@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>View Notes</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+        <h3>Hi {{ user }}, Here are your Notes</h3>
+        <ul>
+        {% for object in object_list %}
+            <li>
+                {{ object.title }}
+                <p> date created: {{ object.timestamp }}</p>
+                <p><small><a href="{{ object.get_delete_url }}">Delete</a></small></p>
+                <p><small><a href="{{ object.get_update_url }}">Update</a></small></p>
+            </li>
+        {% endfor %}
+        </ul>
+
+    </body>
+</html>
