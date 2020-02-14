@@ -11,3 +11,9 @@ src/*/__pycache__
 
 # database
 db.sqlite3
+
+#migrations
+src/*/migrations/
+
+#media
+media_root/

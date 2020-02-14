@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Today's Premier League News</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    </head>
+    <body>
+        <div class="jumbotron">
+            <h1>Welcome to Your Premier League News</h1>
+            {% if hide %}
+                <p> 
+                    Sorry, no news for the next
+                    {{ next_scrape }} hours. 
+                </p>
+                <form>
+                    <button type="submit" action="." class="btn btn-primary">Get News</button>
+                </form>
+            {% else %}
+                <form method="post" action= {% url 'scrape' %}>
+                    {% csrf_token %}
+                    <button type="submit" class="btn btn-primary">Get News</button>
+                </form>
+            {% endif %}   
+        </div>
+        <div class="container-fluid">
+            {% for obj in headlines %}
+            <div class="row justify-content-center">  
+                <div class="col-med-6 text-center">
+                    <div class="card text-center" style="width: 100%;">
+                        <div class="card-body">
+                            <img class="card-img-top" src= "{{ obj.image.url }}">
+                            <h5 class="card-title"><a href="{{ obj.url }}">{{ obj.title }}</a></h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </body>
+</html>
