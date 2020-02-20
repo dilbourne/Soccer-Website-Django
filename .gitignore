@@ -17,3 +17,6 @@ src/*/migrations/
 
 #media
 media_root/
+
+#static
+*/static/{dash,admin}/
