@@ -1,0 +1,624 @@
+id,Club,Country,Dob,Name,Shirtnum,Role
+4985,Arsenal,Germany,1992-03-04,Bernd Leno,1,G
+4474,Arsenal,Spain,1995-03-19,Héctor Bellerín,2,D
+5093,Arsenal,Greece,1988-06-09,Sokratis,5,D
+11575,Arsenal,England,1995-09-20,Rob Holding,16,D
+3869,Arsenal,Germany,1992-04-17,Shkodran Mustafi,20,D
+5368,Arsenal,Germany,1993-06-20,Sead Kolasinac,31,D
+4714,Arsenal,Germany,1988-10-15,Mesut Özil,10,M
+23033,Arsenal,Uruguay,1996-02-11,Lucas Torreira,11,M
+10428,Arsenal,England,1997-08-29,Ainsley Maitland-Niles,15,M
+50512,Arsenal,France,1999-04-14,Matteo Guendouzi,29,M
+12136,Arsenal,Switzerland,1992-09-27,Granit Xhaka,34,M
+14446,Arsenal,England,1999-08-20,Joseph Willock,28,M
+6899,Arsenal,France,1991-05-28,Alexandre Lacazette,9,F
+5110,Arsenal,France,1989-06-18,Pierre-Emerick Aubameyang,14,F
+4245,Arsenal,Argentina,1992-09-02,Emiliano Martínez,26,G
+4620,Arsenal,England,1995-01-20,Calum Chambers,21,D
+10422,Arsenal,England,1994-09-09,Matt Macey,33,G
+66104,Arsenal,Brazil,2001-06-18,Gabriel Martinelli,35,F
+14450,Arsenal,England,1999-12-10,Reiss Nelson,24,F
+7163,Arsenal,Spain,1996-08-07,Dani Ceballos,8,M
+50252,Arsenal,France,1995-05-29,Nicolas Pépé,19,F
+12185,Arsenal,Scotland,1997-06-05,Kieran Tierney,3,D
+4100,Arsenal,Brazil,1987-04-22,David Luiz,23,D
+49481,Arsenal,England,2001-09-05,Bukayo Saka,77,F
+14434,Arsenal,England,1999-01-04,Tolaji Bola,40,D
+14444,Arsenal,Wales,1999-12-26,Robbie Burton,41,M
+19871,Arsenal,England,2001-07-03,Folarin Balogun,38,F
+21958,Arsenal,England,2000-07-09,Zech Medley,49,D
+14451,Arsenal,England,1999-05-30,Eddie Nketiah,30,F
+20097,Arsenal,Spain,1993-08-31,Pablo Marí,0,D
+11347,Arsenal,Germany,1991-08-31,Cédric Soares,0,D
+51416,Aston Villa,Norway,1990-09-10,Ørjan Nyland,25,G
+4348,Aston Villa,England,1992-09-22,Jed Steer,12,G
+4402,Aston Villa,Wales,1989-02-07,Neil Taylor,3,D
+4183,Aston Villa,Egypt,1987-09-09,Ahmed El Mohamady,27,D
+51423,Aston Villa,Scotland,1994-10-18,John McGinn,7,M
+3049,Aston Villa,England,1990-10-12,Henri Lansbury,8,M
+4260,Aston Villa,England,1995-09-10,Jack Grealish,10,M
+9377,Aston Villa,Ireland,1991-02-02,Conor Hourihane,14,M
+13130,Aston Villa,England,1998-02-13,Keinan Davis,39,M
+10604,Aston Villa,Spain,1991-06-16,Jota,23,M
+15580,Aston Villa,Brazil,1996-11-26,Wesley,9,F
+15549,Aston Villa,France,1994-12-24,Frederic Guilbert,24,D
+4815,Aston Villa,England,1995-09-18,Matt Targett,18,D
+10000,Aston Villa,England,1995-07-16,Kortney Hause,30,D
+11033,Aston Villa,Netherlands,1995-05-03,Anwar El Ghazi,21,M
+8900,Aston Villa,England,1993-03-13,Tyrone Mings,40,D
+13274,Aston Villa,England,1997-10-23,Ezri Konsa Ngoyo,15,D
+12199,Aston Villa,Belgium,1994-09-15,Björn Engels,22,D
+16087,Aston Villa,Egypt,1994-10-01,Trézéguet,17,M
+24626,Aston Villa,Brazil,1998-05-09,Douglas Luiz,6,M
+2933,Aston Villa,England,1986-04-15,Tom Heaton,1,G
+45351,Aston Villa,Zimbabwe,1994-01-19,Marvelous Nakamba,11,M
+25281,Aston Villa,England,2001-12-09,Cameron Archer,51,F
+31670,Aston Villa,United States,2001-02-16,Indiana Vassilev,36,F
+3670,Aston Villa,England,1990-03-05,Daniel Drinkwater,4,M
+2911,Aston Villa,Spain,1982-08-31,Pepe Reina,29,G
+20490,Aston Villa,Tanzania,1992-12-23,Mbwana Samatta,0,F
+14463,Aston Villa,England,1997-07-23,Matija Sarkic,33,G
+16622,Aston Villa,Spain,1992-08-25,Borja Bastón,0,F
+4601,Bournemouth,Poland,1980-02-20,Artur Boruc,1,G
+50453,Bournemouth,Ireland,1999-05-18,Mark Travers,42,G
+8044,Bournemouth,England,1985-02-16,Simon Francis,2,D
+8045,Bournemouth,England,1991-04-19,Steve Cook,3,D
+4499,Bournemouth,Netherlands,1995-02-18,Nathan Aké,5,D
+3242,Bournemouth,England,1986-09-07,Charlie Daniels,11,D
+3512,Bournemouth,England,1991-04-29,Adam Smith,15,D
+26076,Bournemouth,Spain,1993-02-23,Diego Rico,21,D
+13193,Bournemouth,England,1996-12-18,Jack Simpson,25,D
+14063,Bournemouth,England,1997-11-05,Chris Mepham,33,D
+3390,Bournemouth,England,1990-02-01,Dan Gosling,4,M
+2338,Bournemouth,South Africa,1986-08-20,Andrew Surman,6,M
+37776,Bournemouth,Colombia,1994-10-25,Jefferson Lerma,8,M
+4527,Bournemouth,England,1995-12-08,Jordon Ibe,10,M
+10766,Bournemouth,England,1997-02-03,Lewis Cook,16,M
+3766,Bournemouth,England,1989-11-26,Junior Stanislas,19,M
+13706,Bournemouth,England,1997-07-08,David Brooks,20,M
+8052,Bournemouth,Scotland,1994-02-24,Ryan Fraser,24,M
+8454,Bournemouth,England,1992-02-27,Callum Wilson,13,F
+3926,Bournemouth,Norway,1992-01-15,Joshua King,7,F
+10443,Bournemouth,England,1997-09-14,Dominic Solanke,9,F
+21585,Bournemouth,England,1998-10-06,Lloyd Kelly,26,D
+13703,Bournemouth,England,1998-05-14,Aaron Ramsdale,12,G
+10881,Bournemouth,England,1996-04-06,Jack Stacey,17,D
+8882,Bournemouth,Denmark,1996-06-11,Philip Billing,29,M
+16524,Bournemouth,Nigeria,1997-01-31,Arnaut Danjuma Groeneveld,14,F
+13961,Bournemouth,Wales,1997-03-22,Harry Wilson,22,M
+50468,Bournemouth,Ireland,2000-02-01,Gavin Kilkenny,53,M
+53093,Bournemouth,England,2000-07-10,William Dennis,40,G
+13192,Bournemouth,England,1999-03-04,Corey Jordan,0,D
+70150,Bournemouth,England,2002-05-10,Christian Saydee,65,M
+13195,Bournemouth,England,1998-07-28,Sam Surridge,44,F
+24214,Bournemouth,England,1999-05-26,Kyle Taylor,28,M
+74739,Bournemouth,England,2001-12-12,Brooklyn Genesini,0,D
+12192,Brighton & Hove Albion,Australia,1992-04-08,Mat Ryan,1,G
+3457,Brighton & Hove Albion,England,1990-08-18,Jason Steele,23,G
+3505,Brighton & Hove Albion,England,1989-02-27,David Button,27,G
+3601,Brighton & Hove Albion,Northern Ireland,1992-01-01,Shane Duffy,4,D
+8163,Brighton & Hove Albion,England,1991-11-21,Lewis Dunk,5,D
+4955,Brighton & Hove Albion,Spain,1991-04-14,Martín Montoya,22,D
+23591,Brighton & Hove Albion,Brazil,1995-05-14,Bernardo,30,D
+8707,Brighton & Hove Albion,England,1992-05-09,Dan Burn,33,D
+8168,Brighton & Hove Albion,England,1989-06-12,Dale Stephens,6,M
+50245,Brighton & Hove Albion,Mali,1996-08-30,Yves Bissouma,8,M
+22542,Brighton & Hove Albion,Germany,1991-06-15,Pascal Groß,13,M
+8171,Brighton & Hove Albion,England,1994-07-20,Solly March,20,M
+16790,Brighton & Hove Albion,Netherlands,1991-09-02,Davy Pröpper,24,M
+15480,Brighton & Hove Albion,Iran,1993-08-11,Alireza Jahanbakhsh,16,F
+4772,Brighton & Hove Albion,England,1983-09-25,Glenn Murray,17,F
+12212,Brighton & Hove Albion,Colombia,1992-07-07,José Izquierdo,19,F
+20486,Brighton & Hove Albion,Belgium,1994-12-04,Leandro Trossard,11,M
+16234,Brighton & Hove Albion,Argentina,1989-05-23,Ezequiel Schelotto,21,D
+9426,Brighton & Hove Albion,England,1995-01-04,Adam Webster,15,D
+16256,Brighton & Hove Albion,France,1996-08-14,Neal Maupay,7,F
+21653,Brighton & Hove Albion,Ireland,2000-01-28,Aaron Connolly,44,F
+20723,Brighton & Hove Albion,England,1998-09-08,Steven Alzate,46,F
+49367,Brighton & Hove Albion,Ireland,1999-04-19,Warren O'Hora,0,D
+49193,Brighton & Hove Albion,Serbia,1999-12-29,Bojan Radulovic Samoukovic,0,F
+14555,Brighton & Hove Albion,England,1998-10-07,Archie Davies,0,D
+66506,Brighton & Hove Albion,France,2000-07-13,Romaric Yapi,0,D
+14559,Brighton & Hove Albion,England,2000-04-21,Alex Cochrane,50,D
+24809,Brighton & Hove Albion,England,2002-05-10,Haydon Roberts,58,D
+51437,Brighton & Hove Albion,Sweden,2000-09-04,Peter Gwargis,0,M
+19928,Brighton & Hove Albion,England,2000-12-04,Taylor Richards,0,M
+24722,Brighton & Hove Albion,England,2002-02-04,Jack Spong,0,M
+24723,Brighton & Hove Albion,England,2002-03-12,Teddy Jenks,0,M
+4354,Brighton & Hove Albion,England,1984-05-29,Andrew Crofts,48,M
+21628,Brighton & Hove Albion,Wales,1998-08-18,Jordan Davies,51,M
+23687,Brighton & Hove Albion,England,2000-11-06,Ryan Longman,61,M
+5156,Brighton & Hove Albion,Israel,1988-05-02,Beram Kayal,7,M
+19619,Brighton & Hove Albion,Australia,1990-09-15,Aaron Mooy,18,M
+23704,Brighton & Hove Albion,England,2000-09-30,Tariq Lamptey,0,D
+7124,Brighton & Hove Albion,Netherlands,1993-11-07,Jürgen Locadia,9,F
+63633,Brighton & Hove Albion,Argentina,1998-12-24,Alexis Mac Allister,0,M
+3143,Burnley,England,1987-04-19,Joe Hart,20,G
+10079,Burnley,England,1992-04-19,Nick Pope,1,G
+2852,Burnley,England,1986-11-28,Adam Legzdins,30,G
+4487,Burnley,England,1989-06-09,Matthew Lowton,2,D
+8691,Burnley,England,1993-09-18,Charlie Taylor,3,D
+8143,Burnley,England,1992-11-19,James Tarkowski,5,D
+3909,Burnley,England,1989-09-21,Ben Mee,6,D
+9117,Burnley,England,1993-01-15,Ben Gibson,14,D
+2517,Burnley,Scotland,1985-06-28,Phil Bardsley,26,D
+3837,Burnley,Ireland,1990-08-18,Kevin Long,28,D
+2889,Burnley,England,1989-06-25,Jack Cork,4,M
+6210,Burnley,Iceland,1990-10-27,Jóhann Gudmundsson,7,M
+4158,Burnley,Ireland,1992-01-14,Robbie Brady,12,M
+8586,Burnley,Ireland,1992-01-31,Jeff Hendrick,13,M
+4489,Burnley,England,1990-04-01,Ashley Westwood,18,M
+2270,Burnley,England,1987-04-16,Aaron Lennon,25,M
+8246,Burnley,England,1989-10-30,Ashley Barnes,10,F
+3756,Burnley,New Zealand,1991-12-07,Chris Wood,9,F
+4851,Burnley,Czech Republic,1992-05-01,Matej Vydra,27,F
+24797,Burnley,England,1999-11-22,Dwight McNeil,11,M
+65981,Burnley,England,0,Joel Senior,0,D
+4821,Burnley,Netherlands,1988-08-07,Erik Pieters,23,D
+3851,Burnley,England,1989-07-29,Jay Rodriguez,19,F
+13485,Burnley,Northern Ireland,1996-10-29,Bailey Peacock-Farrell,15,G
+67198,Burnley,England,2003-02-07,Lewis Richardson,38,M
+14795,Burnley,England,1999-09-13,Mace Goodridge,44,M
+55603,Burnley,England,1999-08-22,Ali Koiki,42,D
+14829,Burnley,Ireland,1997-10-19,Jimmy Dunne,34,D
+8889,Burnley,Bermuda,1990-06-01,Nahki Wells,21,F
+9457,Burnley,England,1995-12-19,Josh Brownhill,8,M
+11373,Chelsea,Spain,1994-10-03,Kepa Arrizabalaga,1,G
+10466,Chelsea,Argentina,1981-09-28,Willy Caballero,13,G
+14565,Chelsea,England,1999-09-04,Jamie Cumming,31,G
+16801,Chelsea,Germany,1993-03-03,Antonio Rüdiger,2,D
+4093,Chelsea,Spain,1990-12-28,Marcos Alonso,3,D
+4495,Chelsea,Denmark,1996-04-10,Andreas Christensen,4,D
+4496,Chelsea,Spain,1989-08-28,César Azpilicueta,28,D
+16803,Chelsea,Brazil,1994-08-03,Emerson,33,D
+5682,Chelsea,Brazil,1991-12-20,Jorginho,5,M
+13492,Chelsea,France,1991-03-29,N'Golo Kanté,7,M
+4115,Chelsea,England,1993-12-05,Ross Barkley,8,M
+5179,Chelsea,England,1996-01-23,Ruben Loftus-Cheek,12,M
+4972,Chelsea,Spain,1987-07-28,Pedro,11,F
+4481,Chelsea,France,1986-09-30,Olivier Giroud,18,F
+23702,Chelsea,England,2000-11-07,Callum Hudson-Odoi,20,F
+4748,Chelsea,Brazil,1988-08-09,Willian,10,F
+14571,Chelsea,England,1999-12-08,Reece James,24,D
+15559,Chelsea,United States,1998-09-18,Christian Pulisic,22,M
+13286,Chelsea,England,1997-10-02,Tammy Abraham,9,F
+12520,Chelsea,Austria,1994-05-06,Mateo Kovacic,17,M
+7450,Chelsea,Belgium,1993-10-02,Michy Batshuayi,23,F
+5175,Chelsea,France,1994-10-27,Kurt Zouma,0,D
+13281,Chelsea,Canada,1997-12-19,Fikayo Tomori,29,D
+14580,Chelsea,England,1999-01-10,Mason Mount,19,M
+24221,Chelsea,Scotland,2001-06-11,Billy Gilmour,47,M
+51223,Chelsea,Netherlands,2002-03-10,Ian Maatsen,63,D
+24708,Chelsea,England,2001-11-23,Faustino Anjorin,55,M
+4749,Chelsea,England,1995-04-25,Lewis Baker,34,M
+25313,Chelsea,Italy,1992-06-11,Davide Zappacosta,21,D
+2569,Crystal Palace,Wales,1987-01-24,Wayne Hennessey,13,G
+7548,Crystal Palace,Spain,1987-01-10,Vicente Guaita,31,G
+3929,Crystal Palace,England,1989-10-29,Joel Ward,2,D
+3362,Crystal Palace,Netherlands,1990-08-29,Patrick van Aanholt,3,D
+3517,Crystal Palace,England,1989-03-29,James Tomkins,5,D
+4796,Crystal Palace,France,1990-02-13,Mamadou Sakho,12,D
+8980,Crystal Palace,Germany,1992-12-23,Jeffrey Schlupp,15,D
+3644,Crystal Palace,England,1990-04-27,Martin Kelly,34,D
+5859,Crystal Palace,Yugoslavia,1991-04-07,Luka Milivojevic,4,M
+5377,Crystal Palace,Germany,1995-09-18,Max Meyer,7,M
+5861,Crystal Palace,Senegal,1989-12-21,Cheikhou Kouyaté,8,M
+3724,Crystal Palace,England,1991-07-16,Andros Townsend,10,M
+4224,Crystal Palace,Scotland,1987-10-07,James McArthur,18,M
+4878,Crystal Palace,Netherlands,1996-09-09,Jairo Riedewald,44,D
+4539,Crystal Palace,Cote D'Ivoire,1992-11-10,Wilfried Zaha,11,F
+4492,Crystal Palace,The Democratic Republic Of Congo,1990-12-03,Christian Benteke,17,F
+3058,Crystal Palace,Ireland,1988-05-02,Stephen Henderson,19,G
+5595,Crystal Palace,France,1991-09-11,Jordan Ayew,9,F
+3979,Crystal Palace,Ireland,1990-11-12,James McCarthy,0,M
+24000,Crystal Palace,England,1999-01-17,Nikola Tavares,32,D
+15134,Crystal Palace,England,2000-01-31,Nya Kirby,37,M
+3807,Crystal Palace,England,1987-02-14,Scott Dann,6,D
+2620,Crystal Palace,England,1985-12-19,Gary Cahill,24,D
+24334,Crystal Palace,England,1999-09-01,Tyrick Mitchell,39,D
+24679,Crystal Palace,England,2000-01-12,James Daly,41,F
+53151,Crystal Palace,England,2001-12-10,Brandon Pierrick,40,M
+24342,Crystal Palace,England,1999-01-09,Giovanni McGregor,38,M
+12114,Crystal Palace,Germany,1991-06-07,Cenk Tosun,20,F
+4640,Everton,England,1994-03-07,Jordan Pickford,1,G
+4779,Everton,Netherlands,1982-09-22,Maarten Stekelenburg,22,G
+3030,Everton,England,1984-12-11,Leighton Baines,3,D
+4333,Everton,England,1993-01-11,Michael Keane,5,D
+5758,Everton,France,1993-07-20,Lucas Digne,12,D
+32923,Everton,Colombia,1994-09-23,Yerry Mina,13,D
+3600,Everton,Ireland,1988-10-11,Séamus Coleman,23,D
+4421,Everton,Iceland,1989-09-08,Gylfi Sigurdsson,10,M
+4615,Everton,France,1989-11-08,Morgan Schneiderlin,18,M
+5907,Everton,Brazil,1992-09-08,Bernard,20,F
+13389,Everton,England,1998-06-30,Tom Davies,26,M
+2839,Everton,England,1989-03-16,Theo Walcott,11,F
+9576,Everton,England,1997-03-16,Dominic Calvert-Lewin,9,F
+24630,Everton,Brazil,1997-05-10,Richarlison,7,F
+5061,Everton,Portugal,1993-07-30,André Gomes,21,M
+10564,Everton,England,1996-10-22,Mason Holgate,2,D
+13716,Everton,Netherlands,1989-09-25,Cuco Martina,30,D
+13390,Everton,Senegal,1990-04-18,Oumar Niasse,29,F
+3799,Everton,England,1989-11-21,Fabian Delph,8,M
+20187,Everton,Cote D'Ivoire,1995-09-25,Jean-Philippe Gbamin,25,M
+20958,Everton,Italy,2000-02-28,Moise Kean,27,F
+12576,Everton,France,1992-07-29,Djibril Sidibé,19,D
+4717,Everton,Nigeria,1996-05-03,Alex Iwobi,17,F
+14623,Everton,The Democratic Republic Of Congo,1998-09-09,Beni Baningime,34,M
+23747,Everton,England,2001-02-24,Anthony Gordon,42,F
+14674,Everton,England,1999-01-02,Dennis Adeniran,0,M
+2508,Leicester City,Denmark,1986-11-05,Kasper Schmeichel,1,G
+4522,Leicester City,Wales,1993-06-22,Danny Ward,12,G
+4786,Leicester City,Switzerland,1984-10-02,Eldin Jakupovic,35,G
+13491,Leicester City,England,1996-12-21,Ben Chilwell,3,D
+26216,Leicester City,Turkey,1996-05-23,Çaglar Söyüncü,4,D
+8966,Leicester City,England,1984-01-21,Wes Morgan,5,D
+3156,Leicester City,Northern Ireland,1988-01-03,Jonny Evans,6,D
+5343,Leicester City,Portugal,1993-10-06,Ricardo Pereira,21,D
+5371,Leicester City,Austria,1986-04-07,Christian Fuchs,28,D
+7946,Leicester City,England,1996-06-28,Demarai Gray,7,M
+8456,Leicester City,England,1996-11-23,James Maddison,10,M
+3564,Leicester City,England,1989-11-18,Marc Albrighton,11,M
+12306,Leicester City,Ghana,1994-12-21,Daniel Amartey,18,D
+14716,Leicester City,England,1997-12-09,Harvey Barnes,15,M
+3669,Leicester City,England,1991-07-22,Matty James,22,M
+19617,Leicester City,France,1992-06-23,Nampalys Mendy,24,M
+20479,Leicester City,Nigeria,1996-12-16,Wilfred Ndidi,25,M
+13248,Leicester City,England,1997-10-01,Hamza Choudhury,20,M
+13554,Leicester City,Nigeria,1996-10-03,Kelechi Iheanacho,14,F
+8979,Leicester City,England,1987-01-11,Jamie Vardy,9,F
+13515,Leicester City,England,1998-02-23,James Justin,2,D
+16671,Leicester City,Croatia,1997-07-13,Filip Benkovic,16,D
+10487,Leicester City,Spain,1993-07-29,Ayoze Pérez,17,F
+5865,Leicester City,Belgium,1997-05-07,Youri Tielemans,8,M
+5860,Leicester City,Belgium,1994-05-14,Dennis Praet,26,M
+4351,Leicester City,England,1990-03-06,Ryan Bennett,0,D
+20559,Liverpool,Brazil,1992-10-02,Alisson,1,G
+14723,Liverpool,Ireland,1998-11-23,Caoimhin Kelleher,62,G
+5140,Liverpool,Netherlands,1991-07-08,Virgil van Dijk,4,D
+4813,Liverpool,Bosnia And Herzegovina,1989-07-05,Dejan Lovren,6,D
+10651,Liverpool,England,1997-05-23,Joseph Gomez,12,D
+10458,Liverpool,Scotland,1994-03-11,Andrew Robertson,26,D
+5375,Liverpool,Germany,1991-08-08,Joel Matip,32,D
+52951,Liverpool,Netherlands,2002-01-18,Ki-Jana Hoever,51,D
+14732,Liverpool,England,1998-10-07,Trent Alexander-Arnold,66,D
+11247,Liverpool,Brazil,1993-10-23,Fabinho,3,M
+7114,Liverpool,Netherlands,1990-11-11,Georginio Wijnaldum,5,M
+2100,Liverpool,England,1986-01-04,James Milner,7,M
+12316,Liverpool,Guinea,1995-02-10,Naby Keita,8,M
+3712,Liverpool,England,1990-06-17,Jordan Henderson,14,M
+4618,Liverpool,England,1988-05-10,Adam Lallana,20,M
+4252,Liverpool,England,1993-08-15,Alex Oxlade-Chamberlain,15,M
+23815,Liverpool,England,2001-01-30,Curtis Jones,48,M
+13511,Liverpool,Brazil,1991-10-02,Roberto Firmino,9,F
+6519,Liverpool,Senegal,1992-04-10,Sadio Mané,10,F
+5178,Liverpool,Egypt,1992-06-15,Mohamed Salah,11,F
+5267,Liverpool,Kosovo,1991-10-10,Xherdan Shaqiri,23,F
+10465,Liverpool,Belgium,1995-04-18,Divock Origi,27,F
+65987,Liverpool,Netherlands,2001-12-20,Sepp van den Berg,72,D
+4604,Liverpool,England,1991-04-05,Nathaniel Clyne,2,D
+8006,Liverpool,England,1983-10-19,Andy Lonergan,22,G
+33185,Liverpool,England,2003-04-04,Harvey Elliott,67,M
+4852,Liverpool,Spain,1987-01-03,Adrián,13,G
+13510,Liverpool,Spain,1997-05-23,Pedro Chirivella,68,M
+30528,Liverpool,France,2001-01-01,Yasser Larouci,70,D
+21821,Liverpool,England,1999-11-08,Adam Lewis,46,M
+23817,Liverpool,England,2001-02-24,Luis Longstaff,75,M
+33335,Liverpool,England,2001-10-19,Leighton Clarkson,84,M
+23811,Liverpool,Wales,2001-04-13,Neco Williams,76,D
+66564,Liverpool,France,2002-11-14,Billy Koumetio,89,D
+23659,Liverpool,England,2001-07-16,Ben Winterbottom,63,G
+33072,Liverpool,Scotland,1999-07-23,Tony Gallacher,54,D
+23809,Liverpool,Scotland,2000-12-16,Thomas Clayton,65,D
+23812,Liverpool,England,2001-04-22,Morgan Boyes,77,D
+51569,Liverpool,England,2003-04-04,James Norris,93,D
+24231,Liverpool,England,2001-01-01,Elijah Dixon-Bonner,69,M
+33166,Liverpool,England,2001-09-15,Jack Bearne,81,M
+51561,Liverpool,England,2002-09-03,Layton Stewart,97,F
+51559,Liverpool,England,2002-10-13,Thomas Hill,99,F
+12322,Liverpool,Japan,1995-01-16,Takumi Minamino,18,F
+5810,Manchester City,Chile,1983-04-13,Claudio Bravo,1,G
+12707,Manchester City,Brazil,1993-08-17,Ederson,31,G
+3955,Manchester City,England,1990-05-28,Kyle Walker,2,D
+4505,Manchester City,England,1994-05-28,John Stones,5,D
+11044,Manchester City,France,1994-05-27,Aymeric Laporte,14,D
+5575,Manchester City,France,1994-07-17,Benjamin Mendy,22,D
+6058,Manchester City,Argentina,1988-02-12,Nicolás Otamendi,30,D
+5101,Manchester City,Germany,1990-10-24,Ilkay Gündogan,8,M
+4288,Manchester City,Belgium,1991-06-28,Kevin De Bruyne,17,M
+5067,Manchester City,Portugal,1994-08-10,Bernardo Silva,20,M
+4145,Manchester City,Spain,1986-01-08,David Silva,21,M
+4804,Manchester City,Brazil,1985-05-04,Fernandinho,25,M
+8983,Manchester City,France,1991-02-21,Riyad Mahrez,26,F
+19620,Manchester City,Ukraine,1996-12-15,Oleksandr Zinchenko,11,D
+14805,Manchester City,England,2000-05-28,Phil Foden,47,M
+4316,Manchester City,Jamaica,1994-12-08,Raheem Sterling,7,F
+4328,Manchester City,Argentina,1988-06-02,Sergio Agüero,10,F
+5384,Manchester City,Germany,1996-01-11,Leroy Sané,19,F
+19680,Manchester City,Brazil,1997-04-03,Gabriel Jesus,9,F
+16286,Manchester City,Spain,1996-06-22,Rodrigo,16,M
+5051,Manchester City,Portugal,1994-05-27,João Cancelo,27,D
+2250,Manchester City,England,1985-09-03,Scott Carson,33,G
+24635,Manchester City,Spain,2001-01-09,Eric García,50,D
+25447,Manchester City,England,2002-01-30,Taylor Harwood-Bellis,72,D
+31885,Manchester City,Senegal,2001-10-10,Alpha Richard Dionkou,88,D
+50975,Manchester City,Spain,2001-05-26,Adrián Bernabé,0,M
+24637,Manchester City,England,2001-10-17,Tommy Doyle,69,M
+4330,Manchester United,Spain,1990-11-07,David de Gea,1,G
+1870,Manchester United,England,1983-01-27,Lee Grant,13,G
+13555,Manchester United,Argentina,1987-02-22,Sergio Romero,22,G
+5066,Manchester United,Sweden,1994-07-17,Victor Lindelöf,2,D
+12937,Manchester United,Cote D'Ivoire,1994-04-12,Eric Bailly,3,D
+3820,Manchester United,England,1992-02-21,Phil Jones,4,D
+24252,Manchester United,Portugal,1999-03-18,Diogo Dalot,20,D
+4608,Manchester United,England,1995-07-12,Luke Shaw,23,D
+3920,Manchester United,France,1993-03-15,Paul Pogba,6,M
+4287,Manchester United,Spain,1988-04-28,Juan Mata,8,M
+4337,Manchester United,England,1992-12-15,Jesse Lingard,14,M
+10476,Manchester United,Belgium,1996-01-01,Andreas Pereira,15,M
+5906,Manchester United,Brazil,1993-03-05,Fred,17,M
+3861,Manchester United,Yugoslavia,1988-08-01,Nemanja Matic,31,M
+14824,Manchester United,England,1996-12-08,Scott McTominay,39,M
+13565,Manchester United,England,1997-10-31,Marcus Rashford,10,F
+11272,Manchester United,France,1995-12-05,Anthony Martial,9,F
+25266,Manchester United,England,2001-10-01,Mason Greenwood,26,F
+13797,Manchester United,England,1997-11-10,Daniel James,21,M
+14164,Manchester United,England,1997-11-26,Aaron Wan-Bissaka,29,D
+13561,Manchester United,Netherlands,1998-01-02,Timothy Fosu-Mensah,24,D
+13559,Manchester United,England,1997-11-14,Axel Tuanzebe,38,D
+9566,Manchester United,England,1993-03-05,Harry Maguire,5,D
+14830,Manchester United,England,2000-08-31,Angel Gomes,28,M
+23841,Manchester United,England,2001-03-13,James Garner,37,M
+20858,Manchester United,Curacao,1999-12-04,Tahith Chong,44,M
+23834,Manchester United,England,2000-09-03,Brandon Williams,53,D
+35733,Manchester United,Czech Republic,2000-05-17,Matej Kovar,51,G
+23832,Manchester United,England,2001-08-05,Ethan Laird,41,D
+20787,Manchester United,England,2000-01-10,Max Taylor,52,D
+23697,Manchester United,England,2000-10-14,Di'Shon Bernard,58,D
+27090,Manchester United,Nigeria,2002-04-30,Teden Mengi,71,D
+25464,Manchester United,Spain,2001-01-10,Arnau Puigmal Martínez,47,M
+24649,Manchester United,Northern Ireland,2001-05-11,Ethan Galbraith,54,M
+23830,Manchester United,Wales,2000-11-17,Dylan Levitt,63,M
+23835,Manchester United,England,2000-09-20,D'Mani Mellor,49,F
+25267,Manchester United,Belgium,2001-02-27,Largie Ramazani,59,F
+23396,Manchester United,Portugal,1994-09-08,Bruno Fernandes,18,M
+21881,Manchester United,England,1999-10-15,Nathan Bishop,0,G
+10957,Manchester United,Nigeria,1989-06-16,Odion Ighalo,0,F
+2214,Newcastle United,Ireland,1986-04-30,Robert Elliot,21,G
+6451,Newcastle United,Slovakia,1989-01-15,Martin Dubravka,1,G
+9251,Newcastle United,England,1990-10-08,Karl Darlow,26,G
+3562,Newcastle United,Ireland,1989-09-26,Ciaran Clark,2,D
+4340,Newcastle United,Wales,1991-09-26,Paul Dummett,3,D
+5220,Newcastle United,Switzerland,1991-12-20,Fabian Schär,5,D
+9257,Newcastle United,England,1993-11-11,Jamaal Lascelles,6,D
+5672,Newcastle United,Argentina,1989-02-21,Federico Fernández,18,D
+4918,Newcastle United,Spain,1994-05-05,Javier Manquillo,19,D
+16607,Newcastle United,France,1991-05-20,Florian Lejeune,20,D
+10522,Newcastle United,United States,1993-07-09,DeAndre Yedlin,22,D
+4135,Newcastle United,England,1992-02-27,Jonjo Shelvey,8,M
+3934,Newcastle United,England,1989-09-10,Matt Ritchie,11,M
+4713,Newcastle United,England,1995-03-22,Isaac Hayden,14,M
+54312,Newcastle United,Paraguay,1994-02-10,Miguel Almirón,24,M
+4859,Newcastle United,Ghana,1992-01-10,Christian Atsu,30,M
+14897,Newcastle United,England,1997-10-30,Sean Longstaff,36,M
+20196,Newcastle United,Japan,1992-07-15,Yoshinori Muto,13,F
+20607,Newcastle United,Brazil,1996-08-14,Joelinton,9,F
+7105,Newcastle United,Netherlands,1994-03-30,Jetro Willems,15,D
+12817,Newcastle United,France,1997-03-12,Allan Saint-Maximin,10,F
+66494,Newcastle United,Sweden,1994-08-02,Emil Krafth,17,D
+14903,Newcastle United,England,2000-03-21,Matthew Longstaff,43,M
+4771,Newcastle United,England,1990-10-17,Dwight Gayle,12,F
+3175,Newcastle United,England,1989-01-06,Andy Carroll,7,F
+19951,Newcastle United,England,2000-02-27,Lewis Cass,45,D
+20946,Newcastle United,Denmark,1999-09-18,Elias Sorensen,47,F
+19962,Newcastle United,England,1999-09-23,Thomas Allan,50,F
+13589,Newcastle United,England,1997-04-25,Liam Gibson,33,D
+4847,Newcastle United,France,1994-11-24,Nabil Bentaleb,42,M
+6528,Newcastle United,Austria,1996-03-24,Valentino Lazaro,23,M
+3507,Newcastle United,England,1990-07-02,Danny Rose,0,D
+3169,Norwich City,Netherlands,1988-04-03,Tim Krul,1,G
+19675,Norwich City,Northern Ireland,1984-07-12,Michael McGovern,1,G
+22047,Norwich City,Germany,1993-01-12,Christoph Zimmermann,6,D
+14938,Norwich City,England,1998-01-25,Jamal Lewis,12,D
+12891,Norwich City,Germany,1988-05-09,Timm Klose,15,D
+3819,Norwich City,Scotland,1991-11-20,Grant Hanley,5,D
+19970,Norwich City,England,2000-01-04,Max Aarons,2,D
+10968,Norwich City,England,1998-01-15,Ben Godfrey,35,M
+22040,Norwich City,Croatia,1989-05-23,Mario Vrancic,8,M
+15558,Norwich City,Germany,1992-12-08,Moritz Leitner,10,M
+26408,Norwich City,Argentina,1996-12-25,Emiliano Buendía,17,M
+23199,Norwich City,Germany,1991-02-09,Marco Stiepermann,18,M
+24412,Norwich City,Germany,1993-03-09,Tom Trybull,4,M
+33061,Norwich City,Scotland,1992-01-08,Kenny McLean,23,M
+33066,Norwich City,Cuba,1993-02-01,Onel Hernández,11,M
+4560,Norwich City,Norway,1986-04-04,Alexander Tettey,27,M
+14944,Norwich City,England,1998-02-27,Todd Cantwell,14,M
+5169,Norwich City,Finland,1990-03-29,Teemu Pukki,22,F
+11111,Norwich City,Switzerland,1992-08-08,Josip Drmic,20,F
+5361,Norwich City,Germany,1988-09-27,Ralf Fährmann,21,G
+8945,Norwich City,England,1993-09-16,Sam Byram,3,D
+24641,Norwich City,Ireland,2001-02-11,Adam Idah,35,F
+9826,Norwich City,Wales,1994-12-19,Louis Thompson,0,M
+66497,Norwich City,Scotland,2001-02-10,Archie Mair,60,G
+6820,Norwich City,Slovakia,1994-12-05,Ondrej Duda,25,M
+25203,Norwich City,Germany,1991-01-08,Lukas Rupp,7,M
+26977,Norwich City,England,2001-09-09,Josh Martin,56,M
+4727,Sheffield United,England,1990-05-19,Simon Moore,25,G
+9169,Sheffield United,England,1993-03-09,George Baldock,2,D
+4258,Sheffield United,Ireland,1990-07-09,Enda Stevens,3,D
+9491,Sheffield United,England,1994-03-29,Jack O'Connell,5,D
+3581,Sheffield United,England,1988-07-20,Chris Basham,6,D
+4509,Sheffield United,England,1994-02-18,John Lundstram,7,M
+4394,Sheffield United,Ireland,1992-10-20,John Egan,12,D
+9567,Sheffield United,England,1992-03-21,Kieron Freeman,18,D
+8444,Sheffield United,Scotland,1991-08-24,John Fleck,4,M
+3924,Sheffield United,Northern Ireland,1991-04-12,Oliver Norwood,16,M
+4626,Sheffield United,England,1986-02-05,Billy Sharp,10,F
+2340,Sheffield United,Ireland,1987-11-29,David McGoldrick,17,F
+3320,Sheffield United,England,1992-03-22,Luke Freeman,8,M
+3222,Sheffield United,England,1982-08-17,Phil Jagielka,15,D
+19603,Sheffield United,France,1996-02-08,Lys Mousset,22,F
+9266,Sheffield United,England,1994-08-05,Ben Osborn,23,M
+13988,Sheffield United,England,1997-03-12,Dean Henderson,1,G
+8107,Sheffield United,England,1996-06-04,Oliver McBurnie,9,F
+32602,Sheffield United,Netherlands,1996-12-03,Michael Verrips,21,G
+10451,Sheffield United,Germany,1992-09-10,Muhamed Besic,27,M
+2593,Sheffield United,England,1985-02-10,Leon Clarke,24,F
+3389,Sheffield United,England,1991-03-11,Jack Rodwell,41,M
+9322,Sheffield United,England,1986-03-11,Jake Wright,0,D
+14255,Sheffield United,England,1996-10-03,Jake Eastwood,13,G
+3902,Sheffield United,England,1993-09-01,Jack Robinson,19,D
+21614,Sheffield United,Norway,1998-02-14,Sander Berge,32,M
+11034,Sheffield United,Netherlands,1996-09-05,Richairo Zivkovic,0,F
+16003,Sheffield United,South Africa,1998-08-09,Panagiotis Retsos,0,D
+4573,Southampton,England,1989-12-03,Alex McCarthy,1,G
+15269,Southampton,England,1996-01-22,Angus Gunn,28,G
+14982,Southampton,England,1997-12-20,Harry Lewis,41,G
+20109,Southampton,Denmark,1992-08-03,Jannik Vestergaard,4,D
+4612,Southampton,England,1994-01-27,Jack Stephens,5,D
+2886,Southampton,England,1989-08-05,Ryan Bertrand,21,D
+19589,Southampton,Poland,1996-04-12,Jan Bednarek,35,D
+15011,Southampton,France,1999-02-22,Yan Valery,43,D
+4286,Southampton,Spain,1991-09-24,Oriol Romeu,14,M
+4617,Southampton,England,1994-11-01,James Ward-Prowse,16,M
+12186,Southampton,Scotland,1992-03-30,Stuart Armstrong,17,M
+3811,Southampton,England,1994-03-06,Nathan Redmond,22,M
+5272,Southampton,Denmark,1995-08-05,Pierre-Emile Højbjerg,23,M
+3206,Southampton,Ireland,1987-01-22,Shane Long,7,F
+21532,Southampton,Ireland,2000-07-06,Michael Obafemi,20,F
+52153,Southampton,Mali,1998-06-15,Moussa Djenepo,12,M
+12584,Southampton,France,1993-09-17,Sofiane Boufal,19,M
+10905,Southampton,England,1996-07-13,Che Adams,10,F
+8245,Southampton,England,1992-07-23,Danny Ings,9,F
+15013,Southampton,England,2000-03-17,Jake Vokins,29,D
+25892,Southampton,Austria,1998-09-19,Kevin Danso,38,D
+9649,Southampton,England,1995-02-06,Sam McQueen,45,D
+14997,Southampton,England,2000-02-21,William Smallbone,27,M
+15019,Southampton,England,1999-02-05,Daniel N'Lundulu,40,F
+13815,Southampton,England,1997-04-13,Kyle Walker-Peters,0,D
+4664,Tottenham Hotspur,France,1986-12-26,Hugo Lloris,1,G
+4600,Tottenham Hotspur,Argentina,1992-01-02,Paulo Gazzaniga,22,G
+4916,Tottenham Hotspur,Belgium,1989-03-02,Toby Alderweireld,4,D
+4666,Tottenham Hotspur,Belgium,1987-04-24,Jan Vertonghen,5,D
+20224,Tottenham Hotspur,Colombia,1996-06-12,Davinson Sánchez,6,D
+25309,Tottenham Hotspur,Argentina,1998-01-12,Juan Foyth,21,D
+11293,Tottenham Hotspur,Cote D'Ivoire,1992-12-24,Serge Aurier,24,D
+4408,Tottenham Hotspur,Wales,1993-04-24,Ben Davies,33,D
+7488,Tottenham Hotspur,England,1996-02-02,Harry Winks,8,M
+4842,Tottenham Hotspur,Argentina,1992-03-04,Erik Lamela,11,M
+4816,Tottenham Hotspur,Kenya,1991-06-25,Victor Wanyama,12,M
+4112,Tottenham Hotspur,England,1994-01-15,Eric Dier,15,M
+4549,Tottenham Hotspur,France,1989-08-16,Moussa Sissoko,17,M
+9167,Tottenham Hotspur,England,1996-04-11,Dele Alli,20,M
+5762,Tottenham Hotspur,Brazil,1992-08-13,Lucas Moura,27,M
+4999,Tottenham Hotspur,South Korea,1992-07-08,Son Heung-Min,7,F
+3960,Tottenham Hotspur,England,1993-07-28,Harry Kane,10,F
+25329,Tottenham Hotspur,France,1996-12-28,Tanguy Ndombele,28,M
+21413,Tottenham Hotspur,England,2000-09-16,Oliver Skipp,29,M
+14656,Tottenham Hotspur,England,2000-05-18,Ryan Sessegnon,19,M
+15111,Tottenham Hotspur,England,1998-10-02,Alfie Whiteman,41,G
+15116,Tottenham Hotspur,England,1999-03-31,Japhet Tanganga,39,D
+43856,Tottenham Hotspur,Ireland,2002-02-04,Troy Parrott,52,F
+4398,Tottenham Hotspur,Netherlands,1983-10-20,Michel Vorm,13,G
+15114,Tottenham Hotspur,England,1999-01-08,Brandon Austin,49,G
+51609,Tottenham Hotspur,England,2002-04-06,Dennis Cirkin,0,D
+50857,Tottenham Hotspur,Sao Tome And Principe,1999-01-09,Gedson Fernandes,30,M
+19851,Tottenham Hotspur,Argentina,1996-04-09,Giovani Lo Celso,18,M
+12703,Tottenham Hotspur,Netherlands,1997-10-08,Steven Bergwijn,23,F
+2932,Watford,England,1983-04-03,Ben Foster,26,G
+10480,Watford,Netherlands,1989-07-22,Daryl Janmaat,2,D
+3251,Watford,England,1986-10-03,Adrian Mariappa,6,D
+49992,Watford,Morocco,1994-01-02,Adam Masina,11,D
+3160,Watford,Northern Ireland,1989-02-06,Craig Cathcart,15,D
+22546,Watford,Spain,1991-02-02,Kiko Femenía,21,D
+5713,Watford,Germany,1984-06-27,José Holebas,25,D
+19605,Watford,The Democratic Republic Of Congo,1991-02-24,Christian Kabasele,27,D
+3448,Watford,England,1989-08-12,Tom Cleverley,8,M
+4105,Watford,Sierra Leone,1994-12-12,Nathaniel Chalobah,14,M
+13823,Watford,France,1993-01-01,Abdoulaye Doucouré,16,M
+8589,Watford,England,1995-04-17,Will Hughes,19,M
+19678,Watford,Guinea-Bissau,1999-11-18,Domingos Quina,20,M
+4843,Watford,France,1988-07-11,Etienne Capoue,29,M
+11213,Watford,Argentina,1991-01-07,Roberto Pereyra,37,M
+4777,Watford,Spain,1994-03-13,Gerard Deulofeu,7,F
+9947,Watford,England,1988-06-29,Troy Deeney,9,F
+19618,Watford,Nigeria,1996-01-07,Isaac Success,22,F
+9060,Watford,England,1991-06-26,Andre Gray,18,F
+9762,Watford,Austria,1994-07-09,Daniel Bachmann,35,G
+4198,Watford,England,1990-05-06,Craig Dawson,4,D
+3719,Watford,Brazil,1981-02-15,Heurelho Gomes,1,G
+14778,Watford,England,1999-09-17,Tom Dele-Bashiru,24,M
+3452,Watford,England,1990-11-26,Danny Welbeck,10,F
+49796,Watford,Senegal,1998-02-25,Ismaila Sarr,23,F
+20722,Watford,England,1999-12-07,Sam Dalby,40,F
+72371,Watford,Brazil,2001-09-26,João Pedro,17,F
+14984,Watford,England,1999-11-30,Adam Parkes,47,G
+15185,Watford,England,1999-09-24,Mason Barrett,41,D
+19867,Watford,England,2001-06-26,Bayli Spencer-Adams,51,D
+14827,Watford,England,1998-09-24,Callum Whelan,42,M
+24340,Watford,England,2000-01-15,Joseph Hungbo,44,M
+50960,Watford,Argentina,1995-12-21,Ignacio Pussetto,33,M
+14459,Watford,England,1998-01-28,Kaylen Hinds,53,F
+23721,Watford,England,2000-01-01,Henry Wise,46,M
+51464,Watford,England,2001-06-26,Jayden Bennetts,58,M
+19999,Watford,England,2000-01-18,Jamal Balogun,45,D
+74590,Watford,0,2002-10-11,Andi Janjeva,72,D
+3309,West Ham United,Poland,1985-04-18,Lukasz Fabianski,1,G
+4209,West Ham United,New Zealand,1988-07-03,Winston Reid,6,D
+8897,West Ham United,England,1989-12-15,Aaron Cresswell,3,D
+32435,West Ham United,Paraguay,1991-08-23,Fabián Balbuena,4,D
+3654,West Ham United,Argentina,1985-01-16,Pablo Zabaleta,5,D
+5514,West Ham United,Italy,1988-05-23,Angelo Ogbonna,21,D
+49884,West Ham United,France,1997-01-09,Issa Diop,23,D
+3958,West Ham United,England,1992-10-10,Ryan Fredericks,24,D
+11284,West Ham United,France,1993-11-07,Arthur Masuaku,26,D
+6784,West Ham United,Brazil,1993-04-15,Felipe Anderson,8,M
+13872,West Ham United,Argentina,1993-02-15,Manuel Lanzini,10,M
+4558,West Ham United,Scotland,1987-09-07,Robert Snodgrass,11,M
+10430,West Ham United,Colombia,1986-02-06,Carlos Sánchez,15,M
+3014,West Ham United,England,1987-05-08,Mark Noble,16,M
+3547,West Ham United,England,1992-01-01,Jack Wilshere,19,M
+9595,West Ham United,England,1990-03-28,Michail Antonio,30,M
+15202,West Ham United,England,1999-01-14,Declan Rice,41,M
+6389,West Ham United,Russia,1989-10-23,Andriy Yarmolenko,7,F
+25246,West Ham United,Spain,1996-02-22,Pablo Fornals,18,M
+2912,West Ham United,England,1986-01-22,David Martin,25,G
+49761,West Ham United,France,1994-06-22,Sébastien Haller,22,F
+66362,West Ham United,Portugal,2000-10-21,Gonçalo Cardoso,20,D
+5248,West Ham United,Switzerland,1997-02-26,Albian Ajeti,27,F
+15212,West Ham United,England,2000-01-24,Ben Johnson,53,M
+48689,West Ham United,England,2000-06-08,Joseph Anang,49,G
+20064,West Ham United,England,2000-09-07,Jeremy Ngakia,52,D
+21422,West Ham United,Brazil,2000-09-20,Bernardo Rosa,44,M
+2216,West Ham United,Ireland,1987-05-12,Darren Randolph,35,G
+25183,West Ham United,Czech Republic,1995-02-27,Tomas Soucek,28,M
+8868,West Ham United,England,1996-12-20,Jarrod Bowen,0,F
+11341,Wolverhampton Wanderers,Portugal,1988-02-15,Rui Patrício,11,G
+2896,Wolverhampton Wanderers,England,1986-10-24,John Ruddy,21,G
+4229,Wolverhampton Wanderers,Ireland,1992-01-16,Matt Doherty,2,D
+16204,Wolverhampton Wanderers,France,1991-02-03,Willy Boly,15,D
+4136,Wolverhampton Wanderers,England,1993-02-25,Conor Coady,16,D
+20277,Wolverhampton Wanderers,Spain,1994-03-03,Jonny,19,D
+20171,Wolverhampton Wanderers,Portugal,1999-04-09,Rúben Vinagre,29,D
+13522,Wolverhampton Wanderers,England,1997-05-23,Maximilian Kilman,49,D
+11180,Wolverhampton Wanderers,Portugal,1997-03-13,Rúben Neves,8,M
+15259,Wolverhampton Wanderers,England,2000-01-27,Morgan Gibbs-White,17,M
+19758,Wolverhampton Wanderers,Portugal,1996-12-04,Diogo Jota,18,F
+20745,Wolverhampton Wanderers,France,1990-03-26,Romain Saïss,27,M
+11259,Wolverhampton Wanderers,Portugal,1986-09-08,João Moutinho,28,M
+4979,Wolverhampton Wanderers,Spain,1996-01-25,Adama Traoré,37,F
+5866,Wolverhampton Wanderers,Belgium,1995-04-15,Leander Dendoncker,32,M
+11071,Wolverhampton Wanderers,Mexico,1991-05-05,Raúl Jiménez,9,F
+25191,Wolverhampton Wanderers,Portugal,1998-10-12,Bruno Jordão,6,M
+21998,Wolverhampton Wanderers,Portugal,2000-03-09,Pedro Neto,7,F
+49158,Wolverhampton Wanderers,Denmark,2001-01-17,Andreas Söndergaard,0,G
+20079,Wolverhampton Wanderers,England,2001-07-15,Taylor Perry,26,M
+19844,Wolverhampton Wanderers,Germany,1999-03-15,Meritan Shabani,57,M
+23989,Wolverhampton Wanderers,England,2002-04-26,Luke Cundle,68,M
+25435,Wolverhampton Wanderers,Denmark,1998-03-31,Oskar Buur,0,D
+66509,Wolverhampton Wanderers,Portugal,1997-05-23,Flávio Cristóvão,66,D
+25466,Wolverhampton Wanderers,Ireland,2001-10-15,Lewis Richards,76,D
+24667,Wolverhampton Wanderers,Wales,2001-06-29,Terry Taylor,39,M
+51648,Wolverhampton Wanderers,Wales,2002-12-30,Chem Campbell,77,M
+23994,Wolverhampton Wanderers,United States,2001-01-06,Owen Otasowie,54,M
+74562,Wolverhampton Wanderers,Ecuador,2000-07-24,Leonardo Campana,0,F
+11362,Wolverhampton Wanderers,Portugal,1995-10-21,Daniel Podence,10,M
