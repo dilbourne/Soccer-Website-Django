@@ -7,7 +7,7 @@ env/
 src/*/__pycache__/*
 
 # Python files (manage.py)
-*py
+src/*.py
 
 # database
 db.sqlite3
