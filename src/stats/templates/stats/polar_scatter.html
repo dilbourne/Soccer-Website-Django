@@ -1,19 +1,16 @@
+{% extends 'base.html' %}
 {% load plotly_dash %}
 {% load static %}
-<!DOCTYPE html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Polar Scatter Plots</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
-    </head>
-    <body>
-        <h1>Interactive Polar Scatter Plots</h1>
 
-        <div class="{% plotly_class name='PolarScatter' %} card" style="height: 100%; width:100%;">
-            {% plotly_app name='PolarScatter' ratio=0.65 %}
-        </div>
-    </body>
-</html>
+ {% block content %}       
+<div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <h1 class="display-4">Source of Goals</h1>
+      <p class="lead">Enter name of a premier league player below the graph</p>
+    </div>
+</div>
+<div class="{% plotly_class name='PolarScatter' %} card" style="height: 100%; width:100%;">
+    {% plotly_app name='PolarScatter' ratio=0.65 %}
+</div>
+{% endblock %}
+        
