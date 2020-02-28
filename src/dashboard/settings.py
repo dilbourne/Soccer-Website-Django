@@ -42,7 +42,8 @@ INSTALLED_APPS = [
     'django_plotly_dash.apps.DjangoPlotlyDashConfig',
     'channels',
     'channels_redis',
-    'stats'
+    'stats',
+    'background_task'
 ]
 
 MIDDLEWARE = [
