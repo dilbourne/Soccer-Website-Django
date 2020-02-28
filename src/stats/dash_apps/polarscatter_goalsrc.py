@@ -5,8 +5,8 @@ import plotly.graph_objs as go
 from plotly.offline import plot
 from django_plotly_dash import DjangoDash
 import pandas as pd
-from .getters import get_pl_id, get_player_page
-from .cleaners import clean_player_page
+from stats.getters import get_pl_id, get_player_page
+from stats.cleaners import clean_player_page
 from django.conf import settings
 import os
 
