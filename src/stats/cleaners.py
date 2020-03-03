@@ -1,3 +1,6 @@
+import re
+from more_itertools import unique_everseen
+from datetime import datetime as dt
 # CLEANERS
 def clean_player_page(stats):
     # extract stat names and values from raw html
@@ -24,3 +27,34 @@ def clean_player_page(stats):
             stats_dict[key] = float(val)
     
     return stats_dict
+
+def clean_player_overview(arr):
+    a = list(unique_everseen([t.text.strip() for t in arr]))
+    try:
+        b = [*a[:4],*a[6:]]
+        # if a[4] is a shirtnumber
+        if re.search("[0-9]+",b[4]):
+            return {"Club":b[0], "Role":b[1][0], "Country":b[2], "Dob": dt.strptime(b[3].split(" ")[0],"%d/%m/%Y"),
+                    "Shirtnum":int(b[4]), "Name":b[5]}
+        else:
+            return {"Club":b[0], "Role":b[1][0], "Country":b[2], "Dob": dt.strptime(b[3].split(" ")[0],"%d/%m/%Y")
+               , "Shirtnum": 0, "Name":b[4]}
+    except IndexError:
+        try:
+            b = [*a[:4],*a[5:]]
+            if re.search("[0-9]+",b[4]):
+                #if a[4] is a shirt number.....
+                return {"Club":b[0], "Role":b[1][0], "Country":b[2], "Dob": dt.strptime(b[3].split(" ")[0],"%d/%m/%Y"),
+                        "Shirtnum":int(b[4]), "Name":b[5]}
+            else:
+                return {"Club":b[0], "Role":b[1][0], "Country":b[2], "Dob": dt.strptime(b[3].split(" ")[0],"%d/%m/%Y")
+                   , "Shirtnum": 0, "Name":b[4]}
+        except IndexError:
+            b = [*a[:4],*[a[4]]]
+            if re.search("[0-9]+",b[4]):
+                #if a[4] is a shirt number.....
+                return {"Club":b[0], "Role":b[1][0], "Country":b[2], "Dob": dt.strptime(b[3].split(" ")[0],"%d/%m/%Y"),
+                        "Shirtnum":int(b[4]), "Name":b[5]}
+            else:
+                return {"Club":b[0], "Role":b[1][0], "Country":b[2], "Dob": dt.strptime(b[3].split(" ")[0],"%d/%m/%Y")
+                   , "Shirtnum": 0, "Name":b[4]}
