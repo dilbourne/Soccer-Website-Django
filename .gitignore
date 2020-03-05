@@ -9,7 +9,7 @@ __pycache__/
 src/*/migrations/
 
 #media
-media_root/{*.jpeg,*.jpg,*.png,*.gif}
+media_root/
 
 #static
 */static/{dash,admin}/
