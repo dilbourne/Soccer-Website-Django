@@ -27,10 +27,11 @@ class ForwardStats(models.Model):
         verbose_name = 'Forward Stats'
         verbose_name_plural = 'Forward Stats'
 
-    fk = models.ForeignKey(
+    pl_id = models.OneToOneField(
     PlayerInfo,
     on_delete=models.CASCADE,
-    verbose_name="the related attacking player"
+    verbose_name="the related attacking player",
+    primary_key = True
     )
    
     kwargs = { "null":True, "blank":True }
@@ -66,17 +67,18 @@ class ForwardStats(models.Model):
     yellow_cards = models.IntegerField(**kwargs)
 
     def __str__(self):
-        return self.fk.name if self.fk.name != None else 'Unknown'
+        return self.pl_id.name if self.pl_id.name != None else 'Unknown'
 
 class MidfielderStats(models.Model):
     class Meta:
         verbose_name = 'Midfielder Stats'
         verbose_name_plural = 'Midfielder Stats'
     
-    fk = models.ForeignKey(
+    pl_id = models.OneToOneField(
     PlayerInfo,
     on_delete=models.CASCADE,
-    verbose_name="the related midfielder player"
+    verbose_name="the related midfielder player",
+    primary_key = True
     )
     kwargs = { "null":True, "blank":True }
     last_update = models.DateTimeField(auto_now_add=True)
@@ -126,17 +128,18 @@ class MidfielderStats(models.Model):
     aerial_battles_lost = models.IntegerField(**kwargs)
     errors_leading_to_goal = models.IntegerField(**kwargs)
     def __str__(self):
-        return self.fk.name if self.fk.name != None else 'Unknown'
+        return self.pl_id.name if self.pl_id.name != None else 'Unknown'
     
 class DefenderStats(models.Model):
     class Meta:
         verbose_name = 'Defender Stats'
         verbose_name_plural = 'Defender Stats'
 
-    fk = models.ForeignKey(
+    pl_id = models.OneToOneField(
     PlayerInfo,
     on_delete=models.CASCADE,
-    verbose_name="the related defender"
+    verbose_name="the related defender",
+    primary_key=True
     )
     kwargs = { "null":True, "blank":True }
     last_update = models.DateTimeField(auto_now_add=True)
@@ -184,17 +187,18 @@ class DefenderStats(models.Model):
     goals_with_left_foot = models.IntegerField(**kwargs)
     hit_woodwork = models.IntegerField(**kwargs)
     def __str__(self):
-        return self.fk.name if self.fk.name != None else 'Unknown'
+        return self.pl_id.name if self.pl_id.name != None else 'Unknown'
 
 class GoalkeeperStats(models.Model):
     class Meta:
         verbose_name = 'Goalkeeper Stats'
         verbose_name_plural = 'Goalkeeper Stats'
     
-    fk = models.ForeignKey(
+    pl_id = models.OneToOneField(
     PlayerInfo,
     on_delete=models.CASCADE,
-    verbose_name="the related goalkeeper"
+    verbose_name="the related goalkeeper",
+    primary_key = True
     )
     kwargs = { "null":True, "blank":True }
     last_update = models.DateTimeField(auto_now_add=True)
@@ -227,7 +231,7 @@ class GoalkeeperStats(models.Model):
     passes_per_match = models.IntegerField(**kwargs)
     accurate_long_balls = models.IntegerField(**kwargs)
     def __str__(self):
-        return self.fk.name if self.fk.name != None else 'Unknown'
+        return self.pl_id.name if self.pl_id.name != None else 'Unknown'
 
 
    
