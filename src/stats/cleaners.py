@@ -2,7 +2,7 @@ import re
 from more_itertools import unique_everseen
 from datetime import datetime as dt
 # CLEANERS
-def clean_player_page(stats):
+def clean_player_stats(stats):
     # extract stat names and values from raw html
     names_and_values = []
     for t in stats:

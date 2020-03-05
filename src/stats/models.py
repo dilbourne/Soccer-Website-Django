@@ -27,195 +27,207 @@ class ForwardStats(models.Model):
         verbose_name = 'Forward Stats'
         verbose_name_plural = 'Forward Stats'
 
-    pl_id = models.ForeignKey(
+    fk = models.ForeignKey(
     PlayerInfo,
     on_delete=models.CASCADE,
     verbose_name="the related attacking player"
     )
+   
+    kwargs = { "null":True, "blank":True }
     last_update = models.DateTimeField(auto_now_add=True)
-    appearances = models.IntegerField()
-    assists = models.IntegerField()
-    big_chances_created = models.IntegerField()
-    big_chances_missed = models.IntegerField()
-    blocked_shots = models.IntegerField()
-    clearances = models.IntegerField()
-    crosses = models.IntegerField()
-    fouls = models.IntegerField()
-    freekicks_scored = models.IntegerField()
-    goals = models.IntegerField()
-    goals_per_match = models.FloatField()
-    goals_with_left_foot = models.IntegerField()
-    goals_with_right_foot = models.IntegerField()
-    headed_clearance = models.IntegerField()
-    headed_goals = models.IntegerField()
-    hit_woodwork = models.IntegerField()
-    interceptions = models.IntegerField()
-    losses = models.IntegerField()
-    offsides = models.IntegerField()
-    passes = models.IntegerField()
-    passes_per_match = models.FloatField()
-    penalties_scored = models.IntegerField()
-    red_cards = models.IntegerField()
-    shooting_accuracy = models.FloatField()
-    shots = models.IntegerField()
-    shots_on_target = models.IntegerField()
-    tackles = models.IntegerField()
-    wins = models.IntegerField()
-    yellow_cards = models.IntegerField()
+    appearances = models.IntegerField(**kwargs)
+    assists = models.IntegerField(**kwargs)
+    big_chances_created = models.IntegerField(**kwargs)
+    big_chances_missed = models.IntegerField(**kwargs)
+    blocked_shots = models.IntegerField(**kwargs)
+    clearances = models.IntegerField(**kwargs)
+    crosses = models.IntegerField(**kwargs)
+    fouls = models.IntegerField(**kwargs)
+    freekicks_scored = models.IntegerField(**kwargs)
+    goals = models.IntegerField(**kwargs)
+    goals_per_match = models.FloatField(**kwargs)
+    goals_with_left_foot = models.IntegerField(**kwargs)
+    goals_with_right_foot = models.IntegerField(**kwargs)
+    headed_clearance = models.IntegerField(**kwargs)
+    headed_goals = models.IntegerField(**kwargs)
+    hit_woodwork = models.IntegerField(**kwargs)
+    interceptions = models.IntegerField(**kwargs)
+    losses = models.IntegerField(**kwargs)
+    offsides = models.IntegerField(**kwargs)
+    passes = models.IntegerField(**kwargs)
+    passes_per_match = models.FloatField(**kwargs)
+    penalties_scored = models.IntegerField(**kwargs)
+    red_cards = models.IntegerField(**kwargs)
+    shooting_accuracy = models.FloatField(**kwargs)
+    shots = models.IntegerField(**kwargs)
+    shots_on_target = models.IntegerField(**kwargs)
+    tackles = models.IntegerField(**kwargs)
+    wins = models.IntegerField(**kwargs)
+    yellow_cards = models.IntegerField(**kwargs)
+
+    def __str__(self):
+        return self.fk.name if self.fk.name != None else 'Unknown'
 
 class MidfielderStats(models.Model):
     class Meta:
         verbose_name = 'Midfielder Stats'
         verbose_name_plural = 'Midfielder Stats'
     
-    pl_id = models.ForeignKey(
+    fk = models.ForeignKey(
     PlayerInfo,
     on_delete=models.CASCADE,
     verbose_name="the related midfielder player"
     )
+    kwargs = { "null":True, "blank":True }
     last_update = models.DateTimeField(auto_now_add=True)
     # general
-    appearances = models.IntegerField()
-    losses = models.IntegerField()
-    wins = models.IntegerField()
+    appearances = models.IntegerField(**kwargs)
+    losses = models.IntegerField(**kwargs)
+    wins = models.IntegerField(**kwargs)
     # team play
-    assists = models.IntegerField()
-    passes = models.IntegerField()
-    passes_per_match = models.FloatField()
-    big_chances_created = models.IntegerField()
-    crosses = models.IntegerField()
-    cross_accuracy = models.FloatField()
-    through_balls = models.IntegerField()
-    accurate_long_balls = models.IntegerField()
+    assists = models.IntegerField(**kwargs)
+    passes = models.IntegerField(**kwargs)
+    passes_per_match = models.FloatField(**kwargs)
+    big_chances_created = models.IntegerField(**kwargs)
+    crosses = models.IntegerField(**kwargs)
+    cross_accuracy = models.FloatField(**kwargs)
+    through_balls = models.IntegerField(**kwargs)
+    accurate_long_balls = models.IntegerField(**kwargs)
     # discipline
-    yellow_cards = models.IntegerField()
-    red_cards = models.IntegerField()
-    fouls = models.IntegerField()
-    offsides = models.IntegerField()
+    yellow_cards = models.IntegerField(**kwargs)
+    red_cards = models.IntegerField(**kwargs)
+    fouls = models.IntegerField(**kwargs)
+    offsides = models.IntegerField(**kwargs)
     #attack
-    big_chances_missed = models.IntegerField()
-    freekicks_scored = models.IntegerField()
-    goals = models.IntegerField()
-    goals_per_match = models.FloatField()
-    goals_with_left_foot = models.IntegerField()
-    goals_with_right_foot = models.IntegerField()
-    headed_goals = models.IntegerField()
-    hit_woodwork = models.IntegerField()
-    penalties_scored = models.IntegerField()
-    shooting_accuracy = models.FloatField()
-    shots = models.IntegerField()
-    shots_on_target = models.IntegerField()
+    big_chances_missed = models.IntegerField(**kwargs)
+    freekicks_scored = models.IntegerField(**kwargs)
+    goals = models.IntegerField(**kwargs)
+    goals_per_match = models.FloatField(**kwargs)
+    goals_with_left_foot = models.IntegerField(**kwargs)
+    goals_with_right_foot = models.IntegerField(**kwargs)
+    headed_goals = models.IntegerField(**kwargs)
+    hit_woodwork = models.IntegerField(**kwargs)
+    penalties_scored = models.IntegerField(**kwargs)
+    shooting_accuracy = models.FloatField(**kwargs)
+    shots = models.IntegerField(**kwargs)
+    shots_on_target = models.IntegerField(**kwargs)
     # defence
-    tackles = models.IntegerField()
-    tackle_success = models.FloatField()
-    blocked_shots = models.IntegerField()
-    interceptions = models.IntegerField()
-    clearances = models.IntegerField()
-    headed_clearance = models.IntegerField()
-    recoveries = models.IntegerField()
-    duels_won = models.IntegerField()
-    duels_lost = models.IntegerField()
-    successful_50_50 = models.IntegerField()
-    aerial_battles_won = models.IntegerField()
-    aerial_battles_lost = models.IntegerField()
-    errors_leading_to_goal = models.IntegerField()
+    tackles = models.IntegerField(**kwargs)
+    tackle_success = models.FloatField(**kwargs)
+    blocked_shots = models.IntegerField(**kwargs)
+    interceptions = models.IntegerField(**kwargs)
+    clearances = models.IntegerField(**kwargs)
+    headed_clearance = models.IntegerField(**kwargs)
+    recoveries = models.IntegerField(**kwargs)
+    duels_won = models.IntegerField(**kwargs)
+    duels_lost = models.IntegerField(**kwargs)
+    successful_50_50 = models.IntegerField(**kwargs)
+    aerial_battles_won = models.IntegerField(**kwargs)
+    aerial_battles_lost = models.IntegerField(**kwargs)
+    errors_leading_to_goal = models.IntegerField(**kwargs)
+    def __str__(self):
+        return self.fk.name if self.fk.name != None else 'Unknown'
     
 class DefenderStats(models.Model):
     class Meta:
         verbose_name = 'Defender Stats'
         verbose_name_plural = 'Defender Stats'
 
-    pl_id = models.ForeignKey(
+    fk = models.ForeignKey(
     PlayerInfo,
     on_delete=models.CASCADE,
     verbose_name="the related defender"
     )
+    kwargs = { "null":True, "blank":True }
     last_update = models.DateTimeField(auto_now_add=True)
     # general
-    appearances = models.IntegerField()
-    wins = models.IntegerField()
-    losses = models.IntegerField()
+    appearances = models.IntegerField(**kwargs)
+    wins = models.IntegerField(**kwargs)
+    losses = models.IntegerField(**kwargs)
     # defence
-    clean_sheets = models.IntegerField()
-    goals_conceded = models.IntegerField()
-    tackles = models.IntegerField()
-    tackle_success = models.IntegerField()
-    last_man_tackles = models.IntegerField()
-    blocked_shots = models.IntegerField()
-    interceptions = models.IntegerField()
-    clearances = models.IntegerField()
-    headed_clearance = models.IntegerField()
-    clearances_off_line = models.IntegerField()
-    recoveries = models.IntegerField()
-    duels_won = models.IntegerField()
-    duels_lost = models.IntegerField()
-    successful_50_50 = models.IntegerField()
-    aerial_battles_won = models.IntegerField()
-    aerial_battles_lost = models.IntegerField()
-    own_goals = models.IntegerField()
-    errors_leading_to_goal = models.IntegerField()
+    clean_sheets = models.IntegerField(**kwargs)
+    goals_conceded = models.IntegerField(**kwargs)
+    tackles = models.IntegerField(**kwargs)
+    tackle_success = models.IntegerField(**kwargs)
+    last_man_tackles = models.IntegerField(**kwargs)
+    blocked_shots = models.IntegerField(**kwargs)
+    interceptions = models.IntegerField(**kwargs)
+    clearances = models.IntegerField(**kwargs)
+    headed_clearance = models.IntegerField(**kwargs)
+    clearances_off_line = models.IntegerField(**kwargs)
+    recoveries = models.IntegerField(**kwargs)
+    duels_won = models.IntegerField(**kwargs)
+    duels_lost = models.IntegerField(**kwargs)
+    successful_50_50 = models.IntegerField(**kwargs)
+    aerial_battles_won = models.IntegerField(**kwargs)
+    aerial_battles_lost = models.IntegerField(**kwargs)
+    own_goals = models.IntegerField(**kwargs)
+    errors_leading_to_goal = models.IntegerField(**kwargs)
     # team play
-    assists = models.IntegerField()
-    passes = models.IntegerField()
-    passes_per_match = models.FloatField()
-    big_chances_created = models.IntegerField()
-    crosses = models.IntegerField()
-    cross_accuracy = models.FloatField()
-    through_balls = models.IntegerField()
-    accurate_long_balls = models.IntegerField()
+    assists = models.IntegerField(**kwargs)
+    passes = models.IntegerField(**kwargs)
+    passes_per_match = models.FloatField(**kwargs)
+    big_chances_created = models.IntegerField(**kwargs)
+    crosses = models.IntegerField(**kwargs)
+    cross_accuracy = models.FloatField(**kwargs)
+    through_balls = models.IntegerField(**kwargs)
+    accurate_long_balls = models.IntegerField(**kwargs)
     # discipline
-    yellow_cards = models.IntegerField()
-    red_cards = models.IntegerField()
-    fouls = models.IntegerField()
-    offsides = models.IntegerField()
+    yellow_cards = models.IntegerField(**kwargs)
+    red_cards = models.IntegerField(**kwargs)
+    fouls = models.IntegerField(**kwargs)
+    offsides = models.IntegerField(**kwargs)
     # attack
-    goals = models.IntegerField()
-    headed_goals = models.IntegerField()
-    goals_with_right_foot = models.IntegerField()
-    goals_with_left_foot = models.IntegerField()
-    hit_woodwork = models.IntegerField()
-
+    goals = models.IntegerField(**kwargs)
+    headed_goals = models.IntegerField(**kwargs)
+    goals_with_right_foot = models.IntegerField(**kwargs)
+    goals_with_left_foot = models.IntegerField(**kwargs)
+    hit_woodwork = models.IntegerField(**kwargs)
+    def __str__(self):
+        return self.fk.name if self.fk.name != None else 'Unknown'
 
 class GoalkeeperStats(models.Model):
     class Meta:
         verbose_name = 'Goalkeeper Stats'
         verbose_name_plural = 'Goalkeeper Stats'
     
-    pl_id = models.ForeignKey(
+    fk = models.ForeignKey(
     PlayerInfo,
     on_delete=models.CASCADE,
     verbose_name="the related goalkeeper"
     )
+    kwargs = { "null":True, "blank":True }
     last_update = models.DateTimeField(auto_now_add=True)
     # general
-    appearances = models.IntegerField()
-    wins = models.IntegerField()
-    losses = models.IntegerField()
+    appearances = models.IntegerField(**kwargs)
+    wins = models.IntegerField(**kwargs)
+    losses = models.IntegerField(**kwargs)
     # goalkeeping
-    saves = models.IntegerField()
-    penalties_saved = models.IntegerField()
-    punches = models.IntegerField()
-    high_claims = models.IntegerField()
-    catches = models.IntegerField()
-    sweeper_clearances = models.IntegerField()
-    throw_outs = models.IntegerField()
-    goal_kicks = models.IntegerField()
+    saves = models.IntegerField(**kwargs)
+    penalties_saved = models.IntegerField(**kwargs)
+    punches = models.IntegerField(**kwargs)
+    high_claims = models.IntegerField(**kwargs)
+    catches = models.IntegerField(**kwargs)
+    sweeper_clearances = models.IntegerField(**kwargs)
+    throw_outs = models.IntegerField(**kwargs)
+    goal_kicks = models.IntegerField(**kwargs)
     # defence
-    clean_sheets = models.IntegerField()
-    goals_conceded = models.IntegerField()
-    errors_leading_to_goal = models.IntegerField()
-    own_goals = models.IntegerField()
+    clean_sheets = models.IntegerField(**kwargs)
+    goals_conceded = models.IntegerField(**kwargs)
+    errors_leading_to_goal = models.IntegerField(**kwargs)
+    own_goals = models.IntegerField(**kwargs)
     # discipline
-    yellow_cards = models.IntegerField()
-    red_cards = models.IntegerField()
-    fouls = models.IntegerField()
+    yellow_cards = models.IntegerField(**kwargs)
+    red_cards = models.IntegerField(**kwargs)
+    fouls = models.IntegerField(**kwargs)
     # team player
-    goals = models.IntegerField()
-    assists = models.IntegerField()
-    passes = models.IntegerField()
-    passes_per_match = models.IntegerField()
-    accurate_long_balls = models.IntegerField()
-
+    goals = models.IntegerField(**kwargs)
+    assists = models.IntegerField(**kwargs)
+    passes = models.IntegerField(**kwargs)
+    passes_per_match = models.IntegerField(**kwargs)
+    accurate_long_balls = models.IntegerField(**kwargs)
+    def __str__(self):
+        return self.fk.name if self.fk.name != None else 'Unknown'
 
 
    

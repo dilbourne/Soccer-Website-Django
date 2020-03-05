@@ -5,21 +5,25 @@ import plotly.graph_objs as go
 from plotly.offline import plot
 from django_plotly_dash import DjangoDash
 import pandas as pd
-from stats.getters import get_pl_id, get_player_page
-from stats.cleaners import clean_player_page
+from stats.getters import get_pl_id, get_player_stats
+from stats.cleaners import clean_player_stats
 from django.conf import settings
 import os
 
-external_stylesheets = ['https://codepen.io/chriddyp/pen/bwlwgp.css']
+external_stylesheets = [
+    'https://codepen.io/chriddyp/pen/bwlwgp.css',
+]
 
 app = DjangoDash('PolarScatter', external_stylesheets = external_stylesheets)
 
 def ForwardAttributesScatterTrace(player):
             url = "https://www.premierleague.com/players/{}/player/stats"
+            # os.path.join(settings.BASE_DIR,"static/dataframes/")+"pl_players_info.csv"
             try:
                 try:
-                    d = clean_player_page(get_player_page(url,get_pl_id(player,os.path.join(settings.BASE_DIR,"static/dataframes/")+"pl_players_info.csv")))
+                    d = clean_player_stats(get_player_stats(url,get_pl_id(player)))
                 except Exception as e:
+                    print(e)
                     raise(e)
                 
                 goals = d['Goals']
@@ -60,9 +64,9 @@ def ScatterPolarLayout():
            
 
 app.layout = html.Div([
-    dcc.Graph(id='polar-graph', style={"backgroundColor": "#1a2d46", "color": "#ffffff"}),
+    dcc.Graph(id='polar-graph', style={"backgroundColor": "#1a2d46", "color": "#ffffff", "padding-bottom": "10px"}),
     dcc.Input(id='player-name', value='', type='text', placeholder='Write Player Name Here...')    
-], className='embed-responsive embed-responsive-16by9 border border-dark rounded')
+], className="plot-div")
 
 @app.callback(
     Output('polar-graph','figure'),

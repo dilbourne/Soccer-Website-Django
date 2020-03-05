@@ -1,8 +1,10 @@
 {% extends 'base.html' %}
 {% load plotly_dash %}
 {% load static %}
-
- {% block content %}       
+{% block stylesheets %}
+  <link rel="stylesheet" type="text/css" href="{% static 'css/stats/spolar.css' %}" />
+{% endblock %}
+{% block content %}       
 <div class="jumbotron jumbotron-fluid">
     <div class="container">
       <h1 class="display-4">Source of Goals</h1>

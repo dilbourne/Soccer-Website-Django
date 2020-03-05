@@ -3,7 +3,7 @@ import requests as r
 from bs4 import BeautifulSoup
 from .models import PlayerInfo
 # GETTERS 
-def get_player_page(url,id_no):
+def get_player_stats(url,id_no):
     soup = BeautifulSoup(r.get(url.format(id_no)).content,'html.parser')
     return soup.find_all("span",{"class":"stat"})
 
