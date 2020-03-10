@@ -7,12 +7,11 @@ from stats.dash_apps import polarscatter_goalsrc
 from rest_framework import routers
 
 router = routers.DefaultRouter()
-router.register('info',views.PlayerInfoViewSet, basename="playerinfo")
-#router.register('info/<str:name>',views.PlayerInfoNameViewSet, basename="PlayerInfo")
-router.register('F',views.ForwardStatsViewSet)
-router.register('M',views.MidfielderStatsViewSet)
-router.register('D',views.DefenderStatsViewSet)
-router.register('G',views.GoalkeeperStatsViewSet)
+router.register(r'info',views.PlayerInfoViewSet, basename="playerinfo")
+router.register(r'F',views.ForwardStatsViewSet)
+router.register(r'M',views.MidfielderStatsViewSet)
+router.register(r'D',views.DefenderStatsViewSet)
+router.register(r'G',views.GoalkeeperStatsViewSet)
 
 
 urlpatterns = [

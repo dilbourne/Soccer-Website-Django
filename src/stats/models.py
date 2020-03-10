@@ -12,6 +12,7 @@ class PlayerInfo(models.Model):
         ('G','Goalkeeper')
     )
     pl_id = models.IntegerField(primary_key=True)
+    last_update = models.DateTimeField(auto_now=True)
     club = models.CharField(max_length=40)
     country = models.CharField(max_length=40)
     dob = models.DateField()
@@ -35,7 +36,7 @@ class ForwardStats(models.Model):
     )
    
     kwargs = { "null":True, "blank":True }
-    last_update = models.DateTimeField(auto_now_add=True)
+    last_update = models.DateTimeField(auto_now=True)
     appearances = models.IntegerField(**kwargs)
     assists = models.IntegerField(**kwargs)
     big_chances_created = models.IntegerField(**kwargs)
@@ -81,7 +82,7 @@ class MidfielderStats(models.Model):
     primary_key = True
     )
     kwargs = { "null":True, "blank":True }
-    last_update = models.DateTimeField(auto_now_add=True)
+    last_update = models.DateTimeField(auto_now=True)
     # general
     appearances = models.IntegerField(**kwargs)
     losses = models.IntegerField(**kwargs)
@@ -142,7 +143,7 @@ class DefenderStats(models.Model):
     primary_key=True
     )
     kwargs = { "null":True, "blank":True }
-    last_update = models.DateTimeField(auto_now_add=True)
+    last_update = models.DateTimeField(auto_now=True)
     # general
     appearances = models.IntegerField(**kwargs)
     wins = models.IntegerField(**kwargs)
@@ -201,7 +202,7 @@ class GoalkeeperStats(models.Model):
     primary_key = True
     )
     kwargs = { "null":True, "blank":True }
-    last_update = models.DateTimeField(auto_now_add=True)
+    last_update = models.DateTimeField(auto_now=True)
     # general
     appearances = models.IntegerField(**kwargs)
     wins = models.IntegerField(**kwargs)
