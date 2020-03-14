@@ -13,3 +13,5 @@ media_root/
 
 #static
 */static/{dash,admin}/
+
+*/node_modules/*

@@ -44,7 +44,8 @@ INSTALLED_APPS = [
     'channels_redis',
     'stats',
     'background_task',
-    'rest_framework'
+    'rest_framework',
+    'frontend'
 ]
 
 MIDDLEWARE = [

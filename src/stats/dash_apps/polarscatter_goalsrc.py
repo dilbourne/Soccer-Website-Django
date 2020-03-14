@@ -8,6 +8,7 @@ import pandas as pd
 from stats.getters import get_pl_id, get_player_stats
 from stats.cleaners import clean_player_stats
 from django.conf import settings
+import requests as r
 import os
 
 external_stylesheets = [
@@ -21,15 +22,18 @@ def ForwardAttributesScatterTrace(player):
             # os.path.join(settings.BASE_DIR,"static/dataframes/")+"pl_players_info.csv"
             try:
                 try:
-                    d = clean_player_stats(get_player_stats(url,get_pl_id(player)))
+                    #d = clean_player_stats(get_player_stats(url,get_pl_id(player)))
+                    d_info = r.get("http://localhost:8000/stats/players/info/{p}/".format(p=player)).json()
+                    d = r.get("http://localhost:8000/stats/players/{role}/{_id}/".format(role=d_info['role'],_id=d_info['pl_id'])).json()
+                    
                 except Exception as e:
                     print(e)
                     raise(e)
                 
-                goals = d['Goals']
+                goals = d['goals']
                 sp = go.Scatterpolar(
-                    r = [d['Goals with left foot']/goals,d['Goals with right foot']/goals,d['Headed goals']/goals,
-                    d['Penalties scored']/goals,d['Freekicks scored']/goals],
+                    r = [d['goals_with_left_foot']/goals,d['goals_with_right_foot']/goals,d['headed_goals']/goals,
+                    d['penalties_scored']/goals,d['freekicks_scored']/goals],
                     theta = ['Goals with Left-Foot','Goals with Right-Foot','Goals from Header','Goals from Penalty','Goals from Freekick'],
                     fill = 'toself',
                     name = player

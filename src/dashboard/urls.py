@@ -5,9 +5,11 @@ from django.conf import settings
 
 
 urlpatterns = [
+    #path('',include('frontend.urls')),
+    path('news/',include(('news.urls','news'))),
     path('admin/', admin.site.urls),
     path('notes/', include(('notepad.urls','notepad'))),
-    path('news/', include(('news.urls','news'))),
+    path('daily-news/', include(('frontend.urls','daily-news'))),
     path('django_plotly_dash/', include('django_plotly_dash.urls')),
     path('stats/',include(('stats.urls','stats'))),
 ]
