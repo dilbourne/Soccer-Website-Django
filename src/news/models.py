@@ -3,9 +3,10 @@ from django.conf import settings
 # Create your models here.
 class Headline(models.Model):
     title = models.CharField(max_length=120)
-    image = models.ImageField(upload_to='news_images/%Y/%m/%d/')
+    image = models.ImageField()
     url = models.TextField()
-    pub_date = models.DateTimeField(auto_now_add=True,blank=False)
+    pub_date = models.DateField(auto_now_add=True,blank=False)
+    summary = models.TextField()
 
     def __str__(self):
         return self.title
