@@ -1,26 +1,27 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import './css/header.css';
 
 class Header extends Component {
     render() {
         return (
             <header>
-                <nav className="navbar navbar-expand-md navbar-blue bg-blue">
+                <nav className="navbar navbar-expand-md">
                     <a className="navbar-brand" href="#">Premier League Addict</a>
-                    <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#varbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle naviagtion">
+                    <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault">
                         <span className="navbar-toggler-icon"></span>
                     </button>
                     <div className="collapse navbar-collapse" id="navbarsExampleDefault">
-                        <ul className="navbar-nav mr-auto">
+                        <ul className="navbar-nav">
                             <li className="nav-item">
-                                <a className="nav-link disabled">Home</a>
+                                <Link to='' className="nav-link disabled">Home</Link>
                             </li>
-                            <li className="nav-item-active">
-                                <a href='/news/' className ="nav-link">News</a>
+                            <li className="nav-item active">
+                                <Link to='/news' className ="nav-link">News</Link>
                                 <span className="sr-only">(current)</span>
                             </li>
                             <li className="nav-item">
-                                <a href='/stats/' className="nav-link">Stats</a>
+                                <Link to='/stats' className="nav-link">Stats</Link>
                             </li>
                         </ul>
                     </div>

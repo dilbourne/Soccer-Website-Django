@@ -1,0 +1,57 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.list-group-item {
+    background-color: rgb(234, 253, 255);
+    display: flex;
+    flex-flow: row-reverse wrap;
+}
+
+.list-group-item-reverse {
+    background-color: rgb(234, 253, 255);
+    display: flex;
+    flex-flow: row wrap;
+}
+
+img {
+    border-radius: 10%;
+    opacity: 0.9;
+    padding: 20px;
+}
+
+.media-body {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: rgb(1, 86, 107);
+}
+
+h5 {
+    font-weight: bold;
+    font-size: 120%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 20px;
+}
+
+.date {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 75%;
+    padding-top: 20px;
+    color: rgb(1, 86, 107);
+}
+
+.jumbotron {
+    background-color: rgb(1, 86, 107);
+    color: rgb(234, 253, 255);
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+hr {
+    background-color: rgb(234, 253, 255);
+    width: 50%;
+    height: 150%;
+}
+
