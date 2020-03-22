@@ -4,11 +4,6 @@ import re
 nltk.download('punkt')
 
 def get_summary(url):
-    import nltk
-    from newspaper import Article
-    import re
-    nltk.download('punkt')
-
     article = Article(url)
     article.download()
     article.parse()
@@ -53,7 +48,8 @@ def scrape():
     articles = soup.find_all("section",{"class":"featuredArticle"})
     
     for item in articles:
-        news_link = url + item.find("a",{"class":"thumbnail thumbLong"})['href']
+        url_suffix = item.find("a",{"class":"thumbnail thumbLong"})['href']
+        news_link = url + url_suffix if not re.search('^https://',url_suffix) else url_suffix
         img_src = item.find("img")['src'].strip()
 
         new_headline = Headline()
@@ -78,7 +74,6 @@ def scrape():
                 new_headline.image = local_fname
         except:
             pass
-        
         info = get_summary(news_link)
         new_headline.title = info['title']
         new_headline.summary = info['summary']

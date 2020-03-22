@@ -13,6 +13,10 @@ from rest_framework import viewsets
 from rest_framework.response import Response 
 from .serializers import DailyNewsSerializer
 from .helpers import scrape, get_summary
+import nltk
+from newspaper import Article
+import re
+nltk.download('punkt')
 
 class DailyNewsViewSet(viewsets.ViewSet):
     
@@ -22,6 +26,7 @@ class DailyNewsViewSet(viewsets.ViewSet):
         time_diff = now - user_p.last_scrape
         hrs = time_diff / timedelta(minutes=60)
         time_remaining = 12 - hrs
+        print("Hours since last scrape => ",hrs)
         if time_remaining < 0:
             scrape()
             user_p.last_scrape = datetime.now(timezone.utc)
