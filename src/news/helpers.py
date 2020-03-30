@@ -77,4 +77,7 @@ def scrape():
         info = get_summary(news_link)
         new_headline.title = info['title']
         new_headline.summary = info['summary']
-        new_headline.save()
+        try:
+            new_headline.save()
+        except:
+            pass

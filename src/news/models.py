@@ -4,7 +4,7 @@ from django.conf import settings
 class Headline(models.Model):
     title = models.CharField(max_length=120)
     image = models.ImageField()
-    url = models.TextField()
+    url = models.TextField(primary_key=True)
     pub_date = models.DateField(auto_now_add=True,blank=False)
     summary = models.TextField()
 

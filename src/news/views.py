@@ -23,11 +23,16 @@ class DailyNewsViewSet(viewsets.ViewSet):
     def list(self, request):
         user_p, created = UserProfile.objects.get_or_create(user=request.user)
         now = datetime.now(timezone.utc)
-        time_diff = now - user_p.last_scrape
-        hrs = time_diff / timedelta(minutes=60)
-        time_remaining = 12 - hrs
-        print("Hours since last scrape => ",hrs)
-        if time_remaining < 0:
+        print(created)
+        if not created:
+            time_diff = now - user_p.last_scrape
+            hrs = time_diff / timedelta(minutes=60)
+            time_remaining = 12 - hrs
+            print("Hours since last scrape => ",hrs)
+        else:
+            time_remaining = 0
+        
+        if time_remaining <= 0:
             scrape()
             user_p.last_scrape = datetime.now(timezone.utc)
             user_p.save()
