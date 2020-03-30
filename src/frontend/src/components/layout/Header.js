@@ -14,7 +14,7 @@ class Header extends Component {
                     <div className="collapse navbar-collapse" id="navbarsExampleDefault">
                         <ul className="navbar-nav">
                             <li className="nav-item">
-                                <Link to='' className="nav-link disabled">Home</Link>
+                                <Link to='/' className="nav-link">Home</Link>
                             </li>
                             <li className="nav-item active">
                                 <Link to='/news' className ="nav-link">News</Link>
