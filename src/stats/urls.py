@@ -15,7 +15,8 @@ router.register(r'G',views.GoalkeeperStatsViewSet)
 
 
 urlpatterns = [
-    path('',views.stats_home, name="stats"),
-    path('polar_scatter/',views.polar_scatter, name="polar_scatter"),
-    path('players/',include((router.urls,'players')))
+    path('standings/',views.TableStandingsViewSet.as_view(), name="standings"),
+    path('players/',include((router.urls,'players'))),
+    path('nationality_count/',views.NationalityCountViewSet.as_view(),name="nationality_count"),
+    path('nationality_count/<int:n>/',views.NationalityCountViewSet.as_view(),name="nationality_count")
 ]

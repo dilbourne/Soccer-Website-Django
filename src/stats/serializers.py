@@ -25,3 +25,7 @@ class GoalkeeperStatsSerializer(serializers.ModelSerializer):
     class Meta:
         model = GoalkeeperStats
         fields = '__all__'
+
+class NationalityCountSerializer(serializers.Serializer):
+    country = serializers.CharField()
+    country__count = serializers.IntegerField()
