@@ -1,0 +1,16 @@
+.full {
+    display: inline;
+}
+
+.abbr {
+    display: none;
+}
+
+@media screen and (max-width:740px) {
+    .full {
+        display: none;
+    }
+    .abbr {
+        display: inline;
+    }
+}

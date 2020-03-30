@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import NewsItem from './NewsItem';
+import Jumbotron from '../layout/Jumbotron';
 
 class News extends Component {
     constructor(props){
@@ -22,15 +23,13 @@ class News extends Component {
         const news_items = this.props.articles.map((article, index)=>(
             <NewsItem key={article.id} article={article} toggle={(this.state.toggle.length) ? this.state.toggle[index]  : true} />
         ))
+        const jumbo = {
+            title : 'Premier League News',
+            lead : 'Get the latest updates right here every day, on PL Addict.' 
+        }
         return(
             <React.Fragment>
-                <div className="jumbotron jumbotron-fluid text-center">
-                    <div className="container">
-                        <h1 className="display-4">Premier League News</h1>
-                        <hr className="my-4"></hr>
-                        <p className="lead">Get the latest news updates right here, every single day.</p>
-                    </div>
-                </div>   
+                <Jumbotron jumbo={jumbo} />
                 <ul className="list-unstyled">
                     {news_items}
                 </ul>

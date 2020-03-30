@@ -1,0 +1,20 @@
+div #bar-plot, #sp-plot {
+    background-color:  rgb(234, 253, 255);
+}
+
+#nat-input {
+    width: 60px;
+}
+
+label {
+    padding: 10px;
+    color: rgb(1, 86, 107);
+}
+
+form {
+   
+}
+
+.jumbotron {
+
+}
