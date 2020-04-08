@@ -37,7 +37,7 @@ def getHeadingsAndAbbreviations():
     almost_ = [th.text.replace('\n',"") for th in ths][2:-2]
 
     pattern = '([a-z]|[0-9])[A-Z]'
-    final_ = []
+    final_ = ['Position']
     for i in almost_:
         # if i has a shorter version, ignore it / cut it out
         if re.search(pattern,i):
@@ -71,8 +71,8 @@ def getTableBodyData(thead_data):
         pattern = '([a-z]|[0-9])[A-Z]'
         if re.search(pattern,almost[0]):
             span = re.search(pattern,almost[0]).span()
-            after = (almost[0][:(span[1]-1)],almost[0][(span[1]-1):].strip(),badge_src)
-            final = [*[after],*almost[1:]]
+            after = [almost[0][:(span[1]-1)],almost[0][(span[1]-1):].strip(),badge_src]
+            final = [str(index+1),*[after],*almost[1:]]
             tbody_data.append({ key: value for (key,value) in zip(thead_data,final)})
 
     return tbody_data
