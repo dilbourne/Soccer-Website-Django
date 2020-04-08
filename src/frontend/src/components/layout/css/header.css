@@ -4,28 +4,22 @@ header {
 
 .nav-link {
     color:  rgb(1, 86, 107);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 14px;
-    font-weight: bold;
-    transition: 0.3s;
+    font-family: 'Agency FB', arial;
+    font-size: 25px;
+    transition: 0.5s;
+    padding-left: 20px;
+}
+
+.logo {
+    width: 260px;
+    height: 50px;
+    margin: 10px;
 }
 
 .nav-link:hover {
-    color: black;
-    font-size: 15px;
-}
-
-.navbar-brand {
-    color: rgb(1, 86, 107);
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 20px;
-    font-style: italic;
-    font-weight: bold;
-    transition: 0.3s;
-}
-
-.navbar-brand:hover {
-    color: black;
+    text-decoration: underline #01556B;
+    color: #01566B;
+    font-size: 28px;
 }
 
 .disabled {

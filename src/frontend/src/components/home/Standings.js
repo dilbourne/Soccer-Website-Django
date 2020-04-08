@@ -3,11 +3,10 @@ import './css/standings.css';
 
 export default function Standings(props) {
     return (
-        <div>
-            <table className="table table-sm table-hover table-bordered table-striped table-light">
+        <div id="standings-container">
+            <table className="table table-sm table-hover table-condensed table-striped table-light">
                 <thead>
                     <tr>
-                        <th scope="col"><span className="full ">Position</span><span className="abbr">Pos</span></th>
                         {props.standings[0] && Object.keys(props.standings[0]).map((item,index)=>{
                             switch(item) {
                                 case "Position":

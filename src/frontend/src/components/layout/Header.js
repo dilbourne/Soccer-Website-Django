@@ -7,7 +7,7 @@ class Header extends Component {
         return (
             <header>
                 <nav className="navbar navbar-expand-md">
-                    <a className="navbar-brand" href="#">Premier League Addict</a>
+                    <a className="navbar-brand" href="/"><img src="/static/resources/logo.png" className="logo img-responsive" alt="logo"/></a>
                     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault">
                         <span className="navbar-toggler-icon"></span>
                     </button>

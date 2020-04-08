@@ -1,20 +1,18 @@
-* {
-    font-family: 'Times New Roman', Times, serif;
-}
-
 .list-group-item {
     background-color: rgb(234, 253, 255);
     display: flex;
     flex-flow: row-reverse wrap;
+    padding: 20px;
 }
 
 .list-group-item-reverse {
     background-color: rgb(234, 253, 255);
     display: flex;
     flex-flow: row wrap;
+    padding: 20px;
 }
 
-img {
+.card img {
     border-radius: 10%;
     opacity: 0.9;
     padding: 20px;
@@ -26,14 +24,14 @@ img {
     color: rgb(1, 86, 107);
 }
 
-h5 {
+.media-body h5 {
     font-weight: bold;
     font-size: 120%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding-bottom: 20px;
 }
 
-.date {
+.media-body .date {
     font-weight: bold;
     font-style: italic;
     font-size: 75%;
@@ -47,9 +45,10 @@ h5 {
     margin: 0 auto;
     padding-top: 20px;
     padding-bottom: 20px;
+    font-family: 'Agency FB', arial;
 }
 
-hr {
+.jumbotron hr {
     background-color: rgb(234, 253, 255);
     width: 50%;
     height: 150%;

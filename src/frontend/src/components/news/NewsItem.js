@@ -8,12 +8,12 @@ class NewsItem extends Component {
         super(props);
     }
     render() {
-        const { id, title, image, url, pub_date, summary } = this.props.article;
+        const { title, image, url, pub_date, summary } = this.props.article;
         return (
                 <div className="card">
                     <li className={(this.props.toggle) ? "media list-group-item-reverse" : "media list-group-item"}>
                         <a href={url} alt={title}>
-                            <img src={image} className="mr-3" alt="..." />
+                            <img src={image} className="img-fluid mr-3" alt="..." />
                         </a>
                         <div className="media-body align-self-center mr-3">
                             <h5 className="mt-0 mb-1">

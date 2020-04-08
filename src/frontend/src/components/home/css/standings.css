@@ -1,3 +1,21 @@
+table .table, table .table thead > tr > th, table .table tbody > tr > td, table .table tbody > tr > th {
+    border: 1px solid lightgray;
+    border-radius: 2%;
+}
+
+thead th {
+    text-align: center;
+}
+
+tbody th {
+    font-weight: normal;
+}
+
+td {
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
 .full {
     display: inline;
 }
@@ -12,5 +30,11 @@
     }
     .abbr {
         display: inline;
+    }
+    .table thead tr th:nth-child(7),
+    .table thead tr th:nth-child(8),
+    .table tbody tr td:nth-child(7),
+    .table tbody tr td:nth-child(8) {
+        display: none;
     }
 }

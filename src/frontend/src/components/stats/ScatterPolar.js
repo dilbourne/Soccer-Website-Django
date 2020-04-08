@@ -29,6 +29,7 @@ export default class ScatterPolar extends Component {
                     color: 'white',
                 },
                 paper_bgcolor: 'rgb(1, 86, 107)',
+                autosize: true
             }
         }
         this.getPolarData = this.getPolarData.bind(this);
@@ -56,11 +57,12 @@ export default class ScatterPolar extends Component {
                     }
                 },
                 showlegend: true,
-                title: this.state.pInfo.name + " - Source Of Goals",
+                title: "Source Of Goals",
                 paper_bgcolor: 'rgb(1, 86, 107)',
                 font : {
                     color: 'white'
-                }
+                },
+                autosize:true
             }
             if (res.status == 200)
             {
@@ -99,12 +101,13 @@ export default class ScatterPolar extends Component {
 
     render() {
         return (
-            <div id="scatterpolar-plot">
+                <React.Fragment>
                 <Plot 
                     data = {this.state.data}
-                    layout = {this.state.layout} 
+                    layout = {this.state.layout}
+                    useResizeHandler
                 />
-                <div id="sp-input" className="d-flex flex-row justify-content-center p-2">
+                <div id="sp-input" className="p-2">
                     <form className="form-inline">
                         <div className="form-group">
                             <label className="control-label" htmlFor="input-sp-goals">Player Name: </label>
@@ -127,8 +130,8 @@ export default class ScatterPolar extends Component {
                             />
                         </div>
                     </form>
-                </div>    
-            </div>
+                </div>
+                </React.Fragment>
         )
     }
 }

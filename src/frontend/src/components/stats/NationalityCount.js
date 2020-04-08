@@ -18,7 +18,8 @@ export default class NationalityCount extends Component {
                 paper_bgcolor: 'rgb(1, 86, 107)',
                 font: {
                     color: 'white'
-                }
+                },
+                autosize:true
             }
         }
         this.getNationalityCount = this.getNationalityCount.bind(this);
@@ -50,12 +51,13 @@ export default class NationalityCount extends Component {
 
     render() {
         return (
-            <div id="nationality-plot">
+            <React.Fragment>
                 <Plot 
                     data = {this.state.data}
                     layout = {this.state.layout}
+                    useResizeHandler
                 />
-                <div id="nat-input-wrapper" className="d-flex flex-row justify-content-center p-2">
+                <div id="nat-input-wrapper" className="p-2">
                     <form className="form-inline">
                         <div className="form-group">
                             <label className="control-label" htmlFor="top_n">Top Nationalities: </label>
@@ -76,7 +78,7 @@ export default class NationalityCount extends Component {
                         </div> 
                     </form>  
                 </div>
-            </div>
+            </React.Fragment>
         )
     }
 }

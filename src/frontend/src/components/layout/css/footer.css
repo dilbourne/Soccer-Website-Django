@@ -1,0 +1,101 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+
+footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    color: white;
+    background-color: darkslategray;
+}
+
+div .row {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+#me, #logo-footer {
+    padding: 15px;
+}
+
+#me {
+    border-radius: 100%;
+}
+
+.me-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+div .footer-top {
+    font-size: small;
+    text-align: justify;
+    padding-top: 20px;
+}
+
+div .footer-bottom {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+div .about-me {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    text-align: justify;
+}
+
+div .about-me-top {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+div .contact-info {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+div .contact-info p {
+    font-size: small;
+}
+
+.social-icons a {
+    text-decoration: none;
+    color: white;
+}
+
+.social-icons a i {
+    padding: 10px;
+}
+
+.social-icons li {
+    display: inline;
+    list-style-type: none;
+}
+
+.fa-linkedin, .fa-github, .fa-whatsapp, .fa-google {
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+}
+
+.fa-linkedin:hover {
+    background-color: #0073a4;
+}
+
+.fa-github:hover {
+    background-color: #5a32a3;
+}
+
+.fa-whatsapp:hover {
+    background-color: rgb(26, 170, 26);
+}
+
+.fa-google:hover {
+    background-color: rgb(243, 20, 20);
+}
