@@ -17,38 +17,51 @@ import nltk
 from newspaper import Article
 import re
 nltk.download('punkt')
+from django.contrib.sessions.backends.db import SessionStore
+from django.contrib.sessions.models import Session
 
 class DailyNewsViewSet(viewsets.ViewSet):
     
     def list(self, request):
-        user_p, created = UserProfile.objects.get_or_create(user=request.user)
-        now = datetime.now(timezone.utc)
-        print(created)
-        if not created:
-            time_diff = now - user_p.last_scrape
-            hrs = time_diff / timedelta(minutes=60)
-            time_remaining = 12 - hrs
-            print("Hours since last scrape => ",hrs)
-        else:
-            time_remaining = 0
-        
-        if time_remaining <= 0:
-            scrape()
-            user_p.last_scrape = datetime.now(timezone.utc)
-            user_p.save()
-            queryset = Headline.objects.filter(pub_date = datetime.today().date())
-            serializer = DailyNewsSerializer(queryset, many=True)
-            print("Fresh News")
-            return Response(serializer.data)
-        else:
+        if request.user.is_authenticated:
+            user_p, created = UserProfile.objects.get_or_create(user=request.user)
+            now = datetime.now(timezone.utc)
+            if not created:
+                time_diff = now - user_p.last_scrape
+                hrs = time_diff / timedelta(minutes=60)
+                time_remaining = 12 - hrs
+                print("Hours since last scrape => ",hrs)
+            else:
+                time_remaining = 0
+            
+            if time_remaining <= 0:
+                scrape()
+                user_p.last_scrape = datetime.now(timezone.utc)
+                user_p.save()
+                queryset = Headline.objects.filter(pub_date = datetime.today().date())
+                serializer = DailyNewsSerializer(queryset, many=True)
+                print("Fresh News")
+                return Response(serializer.data)
+            else:
+                queryset = Headline.objects.filter(pub_date = datetime.today().date())
+                serializer = DailyNewsSerializer(queryset, many=True)
+                print("Old News")
+                return Response(serializer.data)
+        elif request.session.get('scraped',False):
             queryset = Headline.objects.filter(pub_date = datetime.today().date())
             serializer = DailyNewsSerializer(queryset, many=True)
             print("Old News")
             return Response(serializer.data)
+        else:
+            scrape()
+            request.session['last_scraped'] = str(datetime.now(timezone.utc))
+            request.session['scraped'] = True
+            request.session.set_expiry(43200) # 12 hours
 
-        
-        
-        
+            queryset = Headline.objects.filter(pub_date = datetime.today().date())
+            serializer = DailyNewsSerializer(queryset, many=True)
+            print("Fresh News")
+            return Response(serializer.data)
 
 # Create your views here.
 def news_list(request):
