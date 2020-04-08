@@ -25,7 +25,7 @@ SECRET_KEY = 'l3&-5^%4wudfjj1^6x(c3svw6g_*jyh6)3tr8nc*ayxcpiqao1'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['localhost','9a8c7f3d.ngrok.io']
 
 
 # Application definition
@@ -58,6 +58,8 @@ MIDDLEWARE = [
     #'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'django_plotly_dash.middleware.BaseMiddleware'
 ]
+
+SESSION_ENGINE = 'django.contrib.sessions.backends.db'
 
 ROOT_URLCONF = 'dashboard.urls'
 
