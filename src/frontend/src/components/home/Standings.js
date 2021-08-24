@@ -36,7 +36,7 @@ export default function Standings(props) {
                 <tbody>
                     {props.standings && props.standings.map((row,index) => {
                         return (
-                        <tr>
+                        <tr key={index}>
                             <th className="align-middle text-center" scope="row">{index+1}</th>
                             <td className="align-middle text-center">
                                 <span className="badge"><img src={row.Club[2]} alt={row.Club[0] + "badge"} /></span>
