@@ -12,7 +12,7 @@ class NewsItem extends Component {
         return (
                 <div className="card">
                     <li className={(this.props.toggle) ? "media list-group-item-reverse" : "media list-group-item"}>
-                        <a href={url} alt={title}>
+                        <a href={url} target="_blank" alt={title}>
                             <img src={image} className="img-fluid mr-3" alt="..." />
                         </a>
                         <div className="media-body align-self-center mr-3">
