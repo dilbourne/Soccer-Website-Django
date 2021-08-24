@@ -21,7 +21,7 @@ class News extends Component {
 
     render() {
         const news_items = this.props.articles.map((article, index)=>(
-            <NewsItem key={article.id} article={article} toggle={(this.state.toggle.length) ? this.state.toggle[index]  : true} />
+            <NewsItem key={index} article={article} toggle={(this.state.toggle.length) ? this.state.toggle[index]  : true} />
         ))
         const jumbo = {
             title : 'Premier League News',
