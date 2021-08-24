@@ -24,7 +24,7 @@
     "webpack-cli": "^3.3.11"
   },
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "mdbreact": "^4.25.4",
     "npm-watch": "^0.6.0",
     "plotly.js": "^1.52.3",
