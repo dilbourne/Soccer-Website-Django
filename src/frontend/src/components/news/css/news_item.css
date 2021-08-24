@@ -27,12 +27,13 @@
 .media-body h5 {
     font-weight: bold;
     font-size: 120%;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Oswald', Verdana, Geneva, Tahoma, sans-serif;
     padding-bottom: 20px;
 }
 
 .media-body .date {
-    font-weight: bold;
+    font-family: 'Oswald', Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
     font-style: italic;
     font-size: 75%;
     padding-top: 20px;
