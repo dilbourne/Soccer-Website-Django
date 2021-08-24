@@ -58,7 +58,7 @@ def getTableBodyData(thead_data):
     content_ = requests.get(url).content
     soup = BeautifulSoup(content_,'html.parser')
     
-    tables = soup.find_all("tr",{"data-compseason":"274"})
+    tables = soup.find_all("tr",{"data-compseason":"418"})
     tbody_data = []
 
     for index, row in enumerate(tables):
