@@ -4,11 +4,23 @@ header {
 
 .nav-link {
     color:  rgb(1, 86, 107);
-    font-family: 'Agency FB', arial;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
     font-size: 25px;
     transition: 0.5s;
     padding-left: 20px;
 }
+
+.display-4 {
+    font-family: 'Oswald', Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+}
+
+.lead {
+    font-family: 'Oswald', Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+}
+
 
 .logo {
     width: 260px;
