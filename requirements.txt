@@ -86,7 +86,7 @@ nbformat==5.0.4
 nest-asyncio==1.4.2
 newspaper3k==0.2.8
 nltk==3.4.5
-notebook==6.0.3
+notebook==6.4.10
 numpy==1.18.1
 packaging==20.4
 pandas==1.0.1
