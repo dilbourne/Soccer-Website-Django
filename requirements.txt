@@ -81,7 +81,7 @@ mistune==0.8.4
 more-itertools==8.2.0
 msgpack==0.6.2
 nbclient==0.5.1
-nbconvert==5.6.1
+nbconvert==6.5.1
 nbformat==5.0.4
 nest-asyncio==1.4.2
 newspaper3k==0.2.8
